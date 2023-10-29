@@ -1,0 +1,921 @@
+item_id,text,keywords,proposition_id,dependency,category_broad,category_detailed,tuple,question_natural_language
+coco_62896,A traffic light and a signpost at a crossroads intersection near a waterway.,traffic light,1,0,entity,whole,entity - whole (traffic light),Is there a light?
+coco_62896,A traffic light and a signpost at a crossroads intersection near a waterway.,signpost,2,0,entity,whole,entity - whole (signpost),Is there a signpost?
+coco_62896,A traffic light and a signpost at a crossroads intersection near a waterway.,crossroads intersection,3,0,entity,whole,entity - whole (crossroads intersection),Is there an intersection?
+coco_62896,A traffic light and a signpost at a crossroads intersection near a waterway.,waterway,4,0,entity,whole,entity - whole (waterway),Is there a waterway?
+coco_62896,A traffic light and a signpost at a crossroads intersection near a waterway.,"traffic light, crossroads intersection, at",5,"1,3",relation,spatial,"relation - spatial (traffic light, crossroads intersection, at)",Is the light a traffic light?
+coco_62896,A traffic light and a signpost at a crossroads intersection near a waterway.,"signpost, crossroads intersection, at",6,"2,3",relation,spatial,"relation - spatial (signpost, crossroads intersection, at)",Is the intersection a crossroads intersection?
+coco_62896,A traffic light and a signpost at a crossroads intersection near a waterway.,"traffic light, waterway, near",7,"1,4",relation,spatial,"relation - spatial (traffic light, waterway, near)",Is the traffic light at the crossroads intersection?
+coco_62896,A traffic light and a signpost at a crossroads intersection near a waterway.,"signpost, waterway, near",8,"2,4",relation,spatial,"relation - spatial (signpost, waterway, near)",Is the signpost at the crossroads intersection?
+coco_62896,A traffic light and a signpost at a crossroads intersection near a waterway.,"crossroads intersection, waterway, near",9,"3,4",relation,spatial,"relation - spatial (crossroads intersection, waterway, near)",Is the intersection near the waterway?
+coco_152829,A woman is showing a watermelon slice to a woman on a scooter.,women,1,0,entity,whole,entity - whole (women),Is there a woman?
+coco_152829,A woman is showing a watermelon slice to a woman on a scooter.,watermelon,2,0,entity,whole,entity - whole (watermelon),Is there a watermelon?
+coco_152829,A woman is showing a watermelon slice to a woman on a scooter.,scooter,3,0,entity,whole,entity - whole (scooter),Is there a scooter?
+coco_152829,A woman is showing a watermelon slice to a woman on a scooter.,"women, ==2",4,1,other,count,"other - count (women, ==2)",Are there two women?
+coco_152829,A woman is showing a watermelon slice to a woman on a scooter.,"watermelon, slice",5,2,attribute,state,"attribute - state (watermelon, slice)",Is the watermelon sliced?
+coco_152829,A woman is showing a watermelon slice to a woman on a scooter.,"woman_1, watermelon, show, woman_2",6,"1,2,4",action, ,"action -  (woman_1, watermelon, show, woman_2)",Is woman_1 showing watermelon to woman_2?
+coco_152829,A woman is showing a watermelon slice to a woman on a scooter.,"woman_2, scooter, on",7,"1,3,4",relation,spatial,"relation - spatial (woman_2, scooter, on)",Is woman_2 on a scooter?
+coco_292534,A red motorcycle parked by paint chipped doors.,motorcycle,1,0,entity,whole,entity - whole (motorcycle),Is there a motorcycle?
+coco_292534,A red motorcycle parked by paint chipped doors.,doors,2,0,entity,whole,entity - whole (doors),Are there any doors?
+coco_292534,A red motorcycle parked by paint chipped doors.,"motorcycle, red",3,1,attribute,color,"attribute - color (motorcycle, red)",Are the doors painted?
+coco_292534,A red motorcycle parked by paint chipped doors.,"door, paint chipped",4,2,attribute,state,"attribute - state (door, paint chipped)",Is the paint chipped?
+coco_292534,A red motorcycle parked by paint chipped doors.,"motorcycle, door, next to",5,"1,2",relation,spatial,"relation - spatial (motorcycle, door, next to)",Is the motorcycle next to doors?
+coco_292534,A red motorcycle parked by paint chipped doors.,"motorcycle, parked",6,1,attribute,state,"attribute - state (motorcycle, parked)",Is the motorcycle parked?
+coco_90398,The caramel-colored kitten is lying on the small blanket on top of the unmade bed.,kitten,1,0,entity,whole,entity - whole (kitten),Is there a kitten?
+coco_90398,The caramel-colored kitten is lying on the small blanket on top of the unmade bed.,blanket,2,0,entity,whole,entity - whole (blanket),Is there a blanket?
+coco_90398,The caramel-colored kitten is lying on the small blanket on top of the unmade bed.,bed,3,0,entity,whole,entity - whole (bed),Is there a bed?
+coco_90398,The caramel-colored kitten is lying on the small blanket on top of the unmade bed.,"kitten, caramel-color",4,1,attribute,color,"attribute - color (kitten, caramel-color)",Is the kitten caramel-colored?
+coco_90398,The caramel-colored kitten is lying on the small blanket on top of the unmade bed.,"blanket, small",5,2,attribute,scale,"attribute - scale (blanket, small)",Is the blanket small?
+coco_90398,The caramel-colored kitten is lying on the small blanket on top of the unmade bed.,"bed, unmade",6,3,attribute,state,"attribute - state (bed, unmade)",Is the bed unmade?
+coco_90398,The caramel-colored kitten is lying on the small blanket on top of the unmade bed.,"kitten, blanket, lying on",7,"1,2",relation,spatial,"relation - spatial (kitten, blanket, lying on)",Is the kitten lying on the blanket?
+coco_90398,The caramel-colored kitten is lying on the small blanket on top of the unmade bed.,"blanket, bed, on",8,"2,3",relation,spatial,"relation - spatial (blanket, bed, on)",Is the blanket on top of the bed?
+coco_90398,The caramel-colored kitten is lying on the small blanket on top of the unmade bed.,"kitten, bed, lying on",9,"1,3",relation,spatial,"relation - spatial (kitten, bed, lying on)",Is the kitten lying on the bed?
+coco_397109,A commercial airplane with propellers flying through the air.,airplane,1,0,entity,whole,entity - whole (airplane),Is there an airplane?
+coco_397109,A commercial airplane with propellers flying through the air.,airplane's propellers,2,1,entity,part,entity - part (airplane's propellers),Does the airplane have propellers?
+coco_397109,A commercial airplane with propellers flying through the air.,"airplane, air, fly through",3,1,action, ,"action -  (airplane, air, fly through)",Is the airplane flying through the air?
+coco_138003,A midsized horse in a field with her rider standing,horse,1,0,entity,whole,entity - whole (horse),Is there a horse?
+coco_138003,A midsized horse in a field with her rider standing,field,2,0,entity,whole,entity - whole (field),Is there a field?
+coco_138003,A midsized horse in a field with her rider standing,horse rider,3,0,entity,whole,entity - whole (horse rider),Is there a horse rider?
+coco_138003,A midsized horse in a field with her rider standing,"horse, midsized",4,1,attribute,scale,"attribute - scale (horse, midsized)",Is the horse midsized?
+coco_138003,A midsized horse in a field with her rider standing,"horse rider, stand",5,3,attribute,state,"attribute - state (horse rider, stand)",Is the horse rider standing?
+coco_138003,A midsized horse in a field with her rider standing,"horse, field, in",7,"1,2",relation,spatial,"relation - spatial (horse, field, in)",Is the horse in the field?
+coco_138003,A midsized horse in a field with her rider standing,"horse rider, field, in",8,"2,3",relation,spatial,"relation - spatial (horse rider, field, in)",Is the horse rider in the field?
+coco_323167,"A laptop with external keyboard, mouse, phone and photo on a desk.",laptop,1,0,entity,whole,entity - whole (laptop),Is there a laptop?
+coco_323167,"A laptop with external keyboard, mouse, phone and photo on a desk.",keyboard,2,0,entity,whole,entity - whole (keyboard),Is there a keyboard?
+coco_323167,"A laptop with external keyboard, mouse, phone and photo on a desk.",mouse,3,0,entity,whole,entity - whole (mouse),Is there a mouse?
+coco_323167,"A laptop with external keyboard, mouse, phone and photo on a desk.",phone,4,0,entity,whole,entity - whole (phone),Is there a phone?
+coco_323167,"A laptop with external keyboard, mouse, phone and photo on a desk.",photo,5,0,entity,whole,entity - whole (photo),Is there a photo?
+coco_323167,"A laptop with external keyboard, mouse, phone and photo on a desk.",desk,6,0,entity,whole,entity - whole (desk),Is there a desk?
+coco_323167,"A laptop with external keyboard, mouse, phone and photo on a desk.","keyboard, external",7,2,attribute,type,"attribute - type (keyboard, external)",Is the keyboard external?
+coco_323167,"A laptop with external keyboard, mouse, phone and photo on a desk.","laptop, desk, on",8,"1,6",relation,spatial,"relation - spatial (laptop, desk, on)",Is the laptop on the desk?
+coco_323167,"A laptop with external keyboard, mouse, phone and photo on a desk.","keyboard, desk, on",9,"2,6",relation,spatial,"relation - spatial (keyboard, desk, on)",Is the keyboard on the desk?
+coco_323167,"A laptop with external keyboard, mouse, phone and photo on a desk.","mouse, desk, on",10,"3,6",relation,spatial,"relation - spatial (mouse, desk, on)",Is the mouse on the desk?
+coco_323167,"A laptop with external keyboard, mouse, phone and photo on a desk.","phone, desk, on",11,"4,6",relation,spatial,"relation - spatial (phone, desk, on)",Is the phone on the desk?
+coco_323167,"A laptop with external keyboard, mouse, phone and photo on a desk.","photo, desk, on",12,"5,6",relation,spatial,"relation - spatial (photo, desk, on)",Is the photo on the desk?
+coco_483317,A large motorcycle that is sitting outside of a building.,motorcycle,1,0,entity,whole,entity - whole (motorcycle),Is there a motorcycle?
+coco_483317,A large motorcycle that is sitting outside of a building.,building,2,0,entity,whole,entity - whole (building),Is there a building?
+coco_483317,A large motorcycle that is sitting outside of a building.,"motorcycle, large",3,1,attribute,scale,"attribute - scale (motorcycle, large)",Is the motorcycle large?
+coco_483317,A large motorcycle that is sitting outside of a building.,"motorcycle, sitting",4,1,attribute,state,"attribute - state (motorcycle, sitting)",Is the motorcycle sitting?
+coco_483317,A large motorcycle that is sitting outside of a building.,"motorcycle, building, outside",5,"1,2",relation,spatial,"relation - spatial (motorcycle, building, outside)",Is the motorcycle outside the building?
+coco_111485,guy with umbrella hat sitting at a table with another person.,guy,1,0,entity,whole,entity - whole (guy),Is there a guy?
+coco_111485,guy with umbrella hat sitting at a table with another person.,guy's hat,2,1,entity,part,entity - part (guy's hat),Is there a hat?
+coco_111485,guy with umbrella hat sitting at a table with another person.,table,3,0,entity,whole,entity - whole (table),Is there a table?
+coco_111485,guy with umbrella hat sitting at a table with another person.,person,4,0,entity,whole,entity - whole (person),Is there another person?
+coco_111485,guy with umbrella hat sitting at a table with another person.,"guy's hat, umbrella hat",5,2,attribute,type,"attribute - type (guy's hat, umbrella hat)",Is the guy's hat an umbrella hat?
+coco_111485,guy with umbrella hat sitting at a table with another person.,"guy, table, sit at",6,"1,3",relation,spatial,"relation - spatial (guy, table, sit at)",Is the guy sitting at the table?
+coco_111485,guy with umbrella hat sitting at a table with another person.,"person, table, sit at",7,"3,4",relation,spatial,"relation - spatial (person, table, sit at)",Is the other person sitting at the table?
+coco_680517,A man in a wet suit is surfing.,man,1,0,entity,whole,entity - whole (man),Is there a man?
+coco_680517,A man in a wet suit is surfing.,man's wet suit,2,1,entity,part,entity - part (man's wet suit),Does the man wear a wet suit?
+coco_680517,A man in a wet suit is surfing.,"man, surf",3,1,attribute,state,"attribute - state (man, surf)",Is the man surfing?
+coco_144234,A man is eating a loaded hot dog with people around him in a line.,man,1,0,entity,whole,entity - whole (man),Is there a man?
+coco_144234,A man is eating a loaded hot dog with people around him in a line.,hot dog,2,0,entity,whole,entity - whole (hot dog),Do we have a hotdog?
+coco_144234,A man is eating a loaded hot dog with people around him in a line.,people,3,0,entity,whole,entity - whole (people),Are there other people?
+coco_144234,A man is eating a loaded hot dog with people around him in a line.,"hot dog, loaded",4,2,attribute,state,"attribute - state (hot dog, loaded)",Is the hotdog loaded?
+coco_144234,A man is eating a loaded hot dog with people around him in a line.,"people, in a line",5,3,attribute,state,"attribute - state (people, in a line)",Are the people in a line?
+coco_144234,A man is eating a loaded hot dog with people around him in a line.,"people, around, man",6,"1,3",relation,spatial,"relation - spatial (people, around, man)",Are the people around the man?
+coco_751840,A man in a black suit surfing a large wave,man,1,0,entity,whole,entity - whole (man),Is there a man?
+coco_751840,A man in a black suit surfing a large wave,suit,2,0,entity,whole,entity - whole (suit),Is there a suit?
+coco_751840,A man in a black suit surfing a large wave,wave,3,0,entity,whole,entity - whole (wave),Is there a wave?
+coco_751840,A man in a black suit surfing a large wave,"suit, black",4,2,attribute,color,"attribute - color (suit, black)",Is the suit black?
+coco_751840,A man in a black suit surfing a large wave,"wave, large",5,3,attribute,scale,"attribute - scale (wave, large)",Is the wave large?
+coco_751840,A man in a black suit surfing a large wave,"man, wave, surf",6,"1,3",action, ,"action -  (man, wave, surf)",Is the man surfing on the wave?
+coco_373633,Black and white photograph of a bed with a laptop on it.,photograph,1,0,global, ,global -  (photograph),Is this a photograph?
+coco_373633,Black and white photograph of a bed with a laptop on it.,bed,2,0,entity,whole,entity - whole (bed),Is there a bed?
+coco_373633,Black and white photograph of a bed with a laptop on it.,laptop,3,0,entity,whole,entity - whole (laptop),Do we have a laptop?
+coco_373633,Black and white photograph of a bed with a laptop on it.,black and white,4,0,global, ,global -  (black and white),Is the photograph black and white?
+coco_373633,Black and white photograph of a bed with a laptop on it.,"laptop, bed, on",5,"2,3",relation,spatial,"relation - spatial (laptop, bed, on)",Is the laptop on the bed?
+coco_668102,A man sitting on a motorcycle smoking a cigarette.,man,1,0,entity,whole,entity - whole (man),Is there a man?
+coco_668102,A man sitting on a motorcycle smoking a cigarette.,motorcycle,2,0,entity,whole,entity - whole (motorcycle),Is there a motorcycle?
+coco_668102,A man sitting on a motorcycle smoking a cigarette.,cigarette,3,0,entity,whole,entity - whole (cigarette),Is there a cigarette?
+coco_668102,A man sitting on a motorcycle smoking a cigarette.,"man, motorcycle, sit on",4,"1,2",relation,spatial,"relation - spatial (man, motorcycle, sit on)",Is the man sitting on the motorcycle?
+coco_668102,A man sitting on a motorcycle smoking a cigarette.,"man, cigarette, smoke",5,"1,3",action, ,"action -  (man, cigarette, smoke)",Is the man smoking the cigarette?
+coco_627537,"A pear, orange, and two bananas in a wooden bowl.",pear,1,0,entity,whole,entity - whole (pear),Is there a pear?
+coco_627537,"A pear, orange, and two bananas in a wooden bowl.",orange,2,0,entity,whole,entity - whole (orange),Is there an orange?
+coco_627537,"A pear, orange, and two bananas in a wooden bowl.",bananas,3,0,entity,whole,entity - whole (bananas),Are there bananas?
+coco_627537,"A pear, orange, and two bananas in a wooden bowl.","bananas, ==2",4,0,other,count,"other - count (bananas, ==2)",Are there two bananas?
+coco_627537,"A pear, orange, and two bananas in a wooden bowl.",bowl,5,0,entity,whole,entity - whole (bowl),Is there a bowl?
+coco_627537,"A pear, orange, and two bananas in a wooden bowl.","bowl, wood",6,5,attribute,material,"attribute - material (bowl, wood)",Is the bowl made of wood?
+coco_627537,"A pear, orange, and two bananas in a wooden bowl.","pear, bowl, in",7,"1,5",relation,spatial,"relation - spatial (pear, bowl, in)",Is the pear in the bowl?
+coco_627537,"A pear, orange, and two bananas in a wooden bowl.","orange, bowl, in",8,"2,5",relation,spatial,"relation - spatial (orange, bowl, in)",Is the orange in the bowl?
+coco_627537,"A pear, orange, and two bananas in a wooden bowl.","bananas, bowl, in",9,"3,5",relation,spatial,"relation - spatial (bananas, bowl, in)",Are the bananas in the bowl?
+coco_482435,Woman with blue dress sitting in modern chair next to vase in empty room.,woman,1,0,entity,whole,entity - whole (woman),Is there a woman?
+coco_482435,Woman with blue dress sitting in modern chair next to vase in empty room.,woman's dress,2,1,entity,part,entity - part (woman's dress),Does the woman wear a dress?
+coco_482435,Woman with blue dress sitting in modern chair next to vase in empty room.,chair,3,0,entity,whole,entity - whole (chair),Is there a chair?
+coco_482435,Woman with blue dress sitting in modern chair next to vase in empty room.,vase,4,0,entity,whole,entity - whole (vase),Is there a vase?
+coco_482435,Woman with blue dress sitting in modern chair next to vase in empty room.,room,5,0,entity,whole,entity - whole (room),Is this a room?
+coco_482435,Woman with blue dress sitting in modern chair next to vase in empty room.,"woman's dress, blue",6,2,attribute,color,"attribute - color (woman's dress, blue)",Is the woman's dress blue?
+coco_482435,Woman with blue dress sitting in modern chair next to vase in empty room.,"chair, modern",7,3,attribute,type,"attribute - type (chair, modern)",Is the chair modern?
+coco_482435,Woman with blue dress sitting in modern chair next to vase in empty room.,"room, empty",8,5,attribute,state,"attribute - state (room, empty)",Is the room empty?
+coco_482435,Woman with blue dress sitting in modern chair next to vase in empty room.,"woman, chair, sit on",9,"1,3",relation,spatial,"relation - spatial (woman, chair, sit on)",Is the woman sitting on the chair?
+coco_482435,Woman with blue dress sitting in modern chair next to vase in empty room.,"chair, vase, next to",10,"3,4",relation,spatial,"relation - spatial (chair, vase, next to)",Is the chair next to the vase?
+coco_482435,Woman with blue dress sitting in modern chair next to vase in empty room.,"woman, vase, next to",11,"1,4",relation,spatial,"relation - spatial (woman, vase, next to)",Is there a woman next to the vase?
+coco_482435,Woman with blue dress sitting in modern chair next to vase in empty room.,"woman, room, in",12,"1,5",relation,spatial,"relation - spatial (woman, room, in)",Is the woman in the room?
+coco_482435,Woman with blue dress sitting in modern chair next to vase in empty room.,"chair, room, in",13,"3,5",relation,spatial,"relation - spatial (chair, room, in)",Is the chair in the room?
+coco_482435,Woman with blue dress sitting in modern chair next to vase in empty room.,"vase, room, in",14,"4,5",relation,spatial,"relation - spatial (vase, room, in)",Is the vase in the room?
+coco_653095,A group of giraffes are gathered together in their enclosure,giraffes,1,0,entity,whole,entity - whole (giraffes), 
+coco_653095,A group of giraffes are gathered together in their enclosure,enclosure,2,0,entity,whole,entity - whole (enclosure),Is there an enclosure?
+coco_653095,A group of giraffes are gathered together in their enclosure,"giraffes, gathered together",3,1,attribute,state,"attribute - state (giraffes, gathered together)",Are the giraffes gathered together?
+coco_653095,A group of giraffes are gathered together in their enclosure,"giraffes, enclosure, in",4,"1,2",relation,spatial,"relation - spatial (giraffes, enclosure, in)",Are the giraffes in the enclosure?
+coco_828568,A red bike with white handles is locked to a black pole on a sidewalk.,bike,1,0,entity,whole,entity - whole (bike),Is there a bike?
+coco_828568,A red bike with white handles is locked to a black pole on a sidewalk.,bike's handles,2,1,entity,part,entity - part (bike's handles), 
+coco_828568,A red bike with white handles is locked to a black pole on a sidewalk.,pole,3,0,entity,whole,entity - whole (pole),Is there a pole?
+coco_828568,A red bike with white handles is locked to a black pole on a sidewalk.,sidewalk,4,0,entity,whole,entity - whole (sidewalk),Is there a sidewalk?
+coco_828568,A red bike with white handles is locked to a black pole on a sidewalk.,"bike, red",5,1,attribute,color,"attribute - color (bike, red)",Is the bike red?
+coco_828568,A red bike with white handles is locked to a black pole on a sidewalk.,"bike's handles, white",6,2,attribute,color,"attribute - color (bike's handles, white)",Are the handles white?
+coco_828568,A red bike with white handles is locked to a black pole on a sidewalk.,"pole, black",7,3,attribute,color,"attribute - color (pole, black)",Is the pole black?
+coco_828568,A red bike with white handles is locked to a black pole on a sidewalk.,"bike, pole, locked to",8,"1,3",relation,spatial,"relation - spatial (bike, pole, locked to)",Is the bike locked to the pole?
+coco_828568,A red bike with white handles is locked to a black pole on a sidewalk.,"bike, sidewalk, on",9,"1,4",relation,spatial,"relation - spatial (bike, sidewalk, on)",Is the bike on the sidewalk?
+coco_828568,A red bike with white handles is locked to a black pole on a sidewalk.,"pole, sidewalk, on",10,"3,4",relation,spatial,"relation - spatial (pole, sidewalk, on)",Is the pole located on the sidewalk?
+coco_366619,People walking down a city sidewalk showing one with headphones.,people,1,0,entity,whole,entity - whole (people), 
+coco_366619,People walking down a city sidewalk showing one with headphones.,sidewalk,2,0,entity,whole,entity - whole (sidewalk),Is there a sidewalk?
+coco_366619,People walking down a city sidewalk showing one with headphones.,headphones,3,0,entity,whole,entity - whole (headphones),Do you have headphones?
+coco_366619,People walking down a city sidewalk showing one with headphones.,"sidewalk, city",4,2,attribute,type,"attribute - type (sidewalk, city)",Is the sidewalk a city sidewalk?
+coco_366619,People walking down a city sidewalk showing one with headphones.,"people, sidewalk, walk down",5,"1,2",action, ,"action -  (people, sidewalk, walk down)",Are the people walking down the sidewalk?
+coco_366619,People walking down a city sidewalk showing one with headphones.,one of the people,5,1,entity,part,entity - part (one of the people), 
+coco_366619,People walking down a city sidewalk showing one with headphones.,one of the people's headphones,7,"3,5",entity,part,entity - part (one of the people's headphones),Is one of the people wearing the headphones?
+coco_100240,A barefoot woman eating food outside from a plate on her lap.,woman,1,0,entity,whole,entity - whole (woman),Is there a woman?
+coco_100240,A barefoot woman eating food outside from a plate on her lap.,food,2,0,entity,whole,entity - whole (food),Is there food?
+coco_100240,A barefoot woman eating food outside from a plate on her lap.,plate,3,0,entity,whole,entity - whole (plate),Is there a plate?
+coco_100240,A barefoot woman eating food outside from a plate on her lap.,"woman, barefoot",4,1,attribute,state,"attribute - state (woman, barefoot)",Is the woman barefoot?
+coco_100240,A barefoot woman eating food outside from a plate on her lap.,"woman, outside, at",5,1,relation,spatial,"relation - spatial (woman, outside, at)",Is the woman outside?
+coco_100240,A barefoot woman eating food outside from a plate on her lap.,"woman, food, eat",6,"1,2",action, ,"action -  (woman, food, eat)",Is the woman eating the food?
+coco_100240,A barefoot woman eating food outside from a plate on her lap.,"food, plate, on",7,"2,3",relation,spatial,"relation - spatial (food, plate, on)",Is the food on the plate?
+coco_100240,A barefoot woman eating food outside from a plate on her lap.,woman's lap,8,1,entity,part,entity - part (woman's lap), 
+coco_100240,A barefoot woman eating food outside from a plate on her lap.,"plate, woman's lap, on",9,"3,8",relation,spatial,"relation - spatial (plate, woman's lap, on)",Is the plate on the woman's lap?
+coco_318578,A group of stuffed animals sitting next to each other in bed.,animals,1,0,entity,whole,entity - whole (animals), 
+coco_318578,A group of stuffed animals sitting next to each other in bed.,"animals, stuffed",2,1,attribute,material,"attribute - material (animals, stuffed)", 
+coco_318578,A group of stuffed animals sitting next to each other in bed.,bed,3,0,entity,whole,entity - whole (bed),Is there a bed?
+coco_318578,A group of stuffed animals sitting next to each other in bed.,"animals, bed, on",4,"1,3",relation,spatial,"relation - spatial (animals, bed, on)",Are the stuffed animals sitting next to each other?
+coco_318578,A group of stuffed animals sitting next to each other in bed.,"animals, next to each other",5,1,attribute,state,"attribute - state (animals, next to each other)", 
+coco_817577,A baseball player running to a base during a game at night. ,baseball player,1,0,entity,whole,entity - whole (baseball player),Is there a baseball player?
+coco_817577,A baseball player running to a base during a game at night. ,base,2,0,entity,whole,entity - whole (base),Is there a base?
+coco_817577,A baseball player running to a base during a game at night. ,night,3,0,global, ,global -  (night),Is it night now?
+coco_817577,A baseball player running to a base during a game at night. ,"baseball player, base, run",4,"1,2",action, ,"action -  (baseball player, base, run)",Is the baseball player running to the base?
+coco_663825,a train on a track near many trees ,train,1,0,entity,whole,entity - whole (train),Is there a train?
+coco_663825,a train on a track near many trees ,track,2,0,entity,whole,entity - whole (track),Is there a track?
+coco_663825,a train on a track near many trees ,trees,3,0,entity,whole,entity - whole (trees), 
+coco_663825,a train on a track near many trees ,"train, track, on",4,"1,2",relation,spatial,"relation - spatial (train, track, on)",Is the train on the track?
+coco_663825,a train on a track near many trees ,"train, trees, near",5,"1,3",relation,spatial,"relation - spatial (train, trees, near)",Is the train near the trees?
+coco_663825,a train on a track near many trees ,"track, trees, near",6,"2,3",relation,spatial,"relation - spatial (track, trees, near)",Is the track near the trees?
+coco_98071,A young man in a suit and tie with a beer in his hand.,man,1,0,entity,whole,entity - whole (man),Is there a man?
+coco_98071,A young man in a suit and tie with a beer in his hand.,man's suit,2,1,entity,part,entity - part (man's suit),Is there a suit?
+coco_98071,A young man in a suit and tie with a beer in his hand.,man's tie,3,1,entity,part,entity - part (man's tie),Is there a tie?
+coco_98071,A young man in a suit and tie with a beer in his hand.,beer,4,0,entity,whole,entity - whole (beer),Do you have a beer?
+coco_98071,A young man in a suit and tie with a beer in his hand.,"man, young",5,1,attribute,state,"attribute - state (man, young)",Is the man young?
+coco_98071,A young man in a suit and tie with a beer in his hand.,man's hand,6,1,entity,part,entity - part (man's hand), 
+coco_98071,A young man in a suit and tie with a beer in his hand.,"beer, man's hand, in",7,"4,6",relation,spatial,"relation - spatial (beer, man's hand, in)",Is the man holding a beer?
+coco_426642,A man at a food truck viewing the menu.,man,1,0,entity,whole,entity - whole (man),Is there a man?
+coco_426642,A man at a food truck viewing the menu.,truck,2,0,entity,whole,entity - whole (truck),Is there a truck?
+coco_426642,A man at a food truck viewing the menu.,menu,3,0,entity,whole,entity - whole (menu),Is there a menu?
+coco_426642,A man at a food truck viewing the menu.,"truck, food",4,2,attribute,type,"attribute - type (truck, food)",Is the truck a food truck?
+coco_426642,A man at a food truck viewing the menu.,"man, truck, at",5,"1,2",relation,spatial,"relation - spatial (man, truck, at)",Is the man at the food truck?
+coco_426642,A man at a food truck viewing the menu.,"man, menu, view",6,"1,3",action, ,"action -  (man, menu, view)",Is the man viewing the menu?
+coco_393304,a group of beginner snow skiers having class,skiers,1,0,entity,whole,entity - whole (skiers), 
+coco_393304,a group of beginner snow skiers having class,"skiers, beginner",2,1,attribute,type,"attribute - type (skiers, beginner)",Are the skiers beginners?
+coco_393304,a group of beginner snow skiers having class,"skiers, having class",3,1,attribute,state,"attribute - state (skiers, having class)",Are the skiers taking class?
+coco_479450,"A red plate topped with broccoli, meat and veggies.",plate,1,0,entity,whole,entity - whole (plate),Is there a plate?
+coco_479450,"A red plate topped with broccoli, meat and veggies.",brocolli,2,0,entity,whole,entity - whole (brocolli),Do we have broccoli?
+coco_479450,"A red plate topped with broccoli, meat and veggies.",meat,3,0,entity,whole,entity - whole (meat),Is there meat?
+coco_479450,"A red plate topped with broccoli, meat and veggies.",veggies,4,0,entity,whole,entity - whole (veggies),Are there any vegetables?
+coco_479450,"A red plate topped with broccoli, meat and veggies.","plate, red",5,1,attribute,color,"attribute - color (plate, red)",Is the plate red?
+coco_479450,"A red plate topped with broccoli, meat and veggies.","broccoli, plate, on",6,"1,2",relation,spatial,"relation - spatial (broccoli, plate, on)",Is the broccoli on the plate?
+coco_479450,"A red plate topped with broccoli, meat and veggies.","meat, plate, on",7,"1,3",relation,spatial,"relation - spatial (meat, plate, on)",Is the meat on the plate?
+coco_479450,"A red plate topped with broccoli, meat and veggies.","veggies, plate, on",8,"1,4",relation,spatial,"relation - spatial (veggies, plate, on)",Are the veggies on the plate?
+coco_226941,A sheep with short hair stands under a fence.,sheep,1,0,entity,whole,entity - whole (sheep),Is there a sheep?
+coco_226941,A sheep with short hair stands under a fence.,sheep's hair,2,1,entity,part,entity - part (sheep's hair),Is there hair?
+coco_226941,A sheep with short hair stands under a fence.,fence,3,0,entity,whole,entity - whole (fence),Is there a fence?
+coco_226941,A sheep with short hair stands under a fence.,"hair, short",4,2,attribute,scale,"attribute - scale (hair, short)",Is the hair short?
+coco_226941,A sheep with short hair stands under a fence.,"sheep, stand",5,1,attribute,state,"attribute - state (sheep, stand)",Is the sheep standing?
+coco_226941,A sheep with short hair stands under a fence.,"sheep, fence, under",6,"1,3",relation,spatial,"relation - spatial (sheep, fence, under)",Is the sheep under the fence?
+coco_494204,The woman is on the court playing a game of tennis. ,woman,1,0,entity,whole,entity - whole (woman),Is there a woman?
+coco_494204,The woman is on the court playing a game of tennis. ,court,2,0,entity,whole,entity - whole (court),Is there a court?
+coco_494204,The woman is on the court playing a game of tennis. ,"woman, court, on",3,"1,2",relation,spatial,"relation - spatial (woman, court, on)",Is the woman on the court?
+coco_494204,The woman is on the court playing a game of tennis. ,"woman, tennis, play",4,"1,3",action, ,"action -  (woman, tennis, play)",Is the woman playing tennis?
+coco_632032,a large clock hangs from a building and reads 12:43.,clock,1,0,entity,whole,entity - whole (clock),Is there a clock?
+coco_632032,a large clock hangs from a building and reads 12:43.,building,2,0,entity,whole,entity - whole (building),Is there a building?
+coco_632032,a large clock hangs from a building and reads 12:43.,"clock, large",3,1,attribute,scale,"attribute - scale (clock, large)",Is the clock large?
+coco_632032,a large clock hangs from a building and reads 12:43.,"clock, ""12:43""",4,1,other,text rendering,"other - text rendering (clock, ""12:43"")",Is it 12:43?
+coco_632032,a large clock hangs from a building and reads 12:43.,"clock, building, hang from",5,"1,2",relation,spatial,"relation - spatial (clock, building, hang from)",Is the clock hanging from the building?
+coco_325049,A group of planes near a large wall of windows.,planes,1,0,entity,whole,entity - whole (planes), 
+coco_325049,A group of planes near a large wall of windows.,wall,2,0,entity,whole,entity - whole (wall),Is there a wall?
+coco_325049,A group of planes near a large wall of windows.,"wall, windows",3,2,entity,material,"entity - material (wall, windows)", 
+coco_325049,A group of planes near a large wall of windows.,"wall, large",4,3,attribute,scale,"attribute - scale (wall, large)",Is the wall large?
+coco_325049,A group of planes near a large wall of windows.,"planes, wall, near",5,"1,2",relation,spatial,"relation - spatial (planes, wall, near)",Are the planes near the wall?
+coco_120896,A boy standing in the door of a bus.,boy,1,0,entity,whole,entity - whole (boy),Is there a boy?
+coco_120896,A boy standing in the door of a bus.,door,2,0,entity,whole,entity - whole (door),Is there a door?
+coco_120896,A boy standing in the door of a bus.,bus,3,0,entity,whole,entity - whole (bus),Is there a bus?
+coco_120896,A boy standing in the door of a bus.,"boy, stand",4,1,attribute,state,"attribute - state (boy, stand)",Is the boy standing?
+coco_120896,A boy standing in the door of a bus.,"boy, door, stand in",5,"1,2",relation,spatial,"relation - spatial (boy, door, stand in)",Is the boy standing in the door?
+coco_120896,A boy standing in the door of a bus.,"door, bus, on",6,"2,3",relation,spatial,"relation - spatial (door, bus, on)",Is the door on the bus?
+coco_178484,Shot of a person in a wooden boat on the shore of a beach.,person,1,0,entity,whole,entity - whole (person),Is there a person?
+coco_178484,Shot of a person in a wooden boat on the shore of a beach.,boat,2,0,entity,whole,entity - whole (boat),Is there a boat?
+coco_178484,Shot of a person in a wooden boat on the shore of a beach.,beach shore,3,0,entity,whole,entity - whole (beach shore),Is there a beach shore?
+coco_178484,Shot of a person in a wooden boat on the shore of a beach.,"boat, wood",4,2,attribute,material,"attribute - material (boat, wood)",Is the boat made of wood?
+coco_178484,Shot of a person in a wooden boat on the shore of a beach.,"person, boat, in",5,1,relation,spatial,"relation - spatial (person, boat, in)",Is the person in the boat?
+coco_178484,Shot of a person in a wooden boat on the shore of a beach.,"boat, beach shore, on",6,"2,3",relation,spatial,"relation - spatial (boat, beach shore, on)",Is the boat on the beach shore?
+coco_178484,Shot of a person in a wooden boat on the shore of a beach.,Shot,7,0,global, ,global -  (Shot), 
+coco_744388,Closeup picture of the front of a clean motorcycle.,motorcycle,1,0,entity,whole,entity - whole (motorcycle),Is there a motorcycle?
+coco_744388,Closeup picture of the front of a clean motorcycle.,closeup,2,0,global, ,global -  (closeup),Is this a closeup image?
+coco_744388,Closeup picture of the front of a clean motorcycle.,picture,3,0,global, ,global -  (picture),Is this a picture?
+coco_744388,Closeup picture of the front of a clean motorcycle.,"motorcycle, clean",4,1,attribute,state,"attribute - state (motorcycle, clean)",Is the motorcycle dirty?
+coco_744388,Closeup picture of the front of a clean motorcycle.,front of the motorcycle,5,1,entity,part,entity - part (front of the motorcycle),Is the picture in the front of the motorcycle?
+coco_290223,An assortment of fruits and vegetable all set together,fruit,1,0,entity,whole,entity - whole (fruit), 
+coco_290223,An assortment of fruits and vegetable all set together,vegetable,2,0,entity,whole,entity - whole (vegetable),Is there a vegetable?
+coco_290223,An assortment of fruits and vegetable all set together,"fruit, assorted",3,1,attribute,state,"attribute - state (fruit, assorted)",Are the fruits and vegetables an assortment?
+coco_290223,An assortment of fruits and vegetable all set together,"vegetable, assorted",4,2,attribute,state,"attribute - state (vegetable, assorted)", 
+coco_290223,An assortment of fruits and vegetable all set together,"fruit, vegetable, set together",5,"1,2",relation,spatial,"relation - spatial (fruit, vegetable, set together)",Are the fruits and vegetables set together?
+coco_816278,A row of motorcycles parked on the side of a road.,motorcycles,1,0,entity,whole,entity - whole (motorcycles), 
+coco_816278,A row of motorcycles parked on the side of a road.,road,2,0,entity,whole,entity - whole (road),Is there a road?
+coco_816278,A row of motorcycles parked on the side of a road.,"motorcycles, in a row",3,1,attribute,state,"attribute - state (motorcycles, in a row)",Are the motorcycles lined up?
+coco_816278,A row of motorcycles parked on the side of a road.,"motorcycles, road, next to",4,"1,2",relation,spatial,"relation - spatial (motorcycles, road, next to)",Are there motorcycles parked on the side of the road?
+coco_816278,A row of motorcycles parked on the side of a road.,"motorcycles, parked",5,1,attribute,state,"attribute - state (motorcycles, parked)", 
+coco_435097,Some very big furry brown bears in a big grass field.,bears,1,0,entity,whole,entity - whole (bears),Are there any bears?
+coco_435097,Some very big furry brown bears in a big grass field.,grass field,2,0,entity,whole,entity - whole (grass field),Is there a grass field?
+coco_435097,Some very big furry brown bears in a big grass field.,"bears, very big",3,1,attribute,scale,"attribute - scale (bears, very big)",Are the bears very big?
+coco_435097,Some very big furry brown bears in a big grass field.,"bears, furry",4,1,attribute,texture,"attribute - texture (bears, furry)", 
+coco_435097,Some very big furry brown bears in a big grass field.,"bears, brown",5,1,attribute,color,"attribute - color (bears, brown)",Are the bears brown?
+coco_435097,Some very big furry brown bears in a big grass field.,"grass field, big",6,2,attribute,scale,"attribute - scale (grass field, big)",Is the grass field big?
+coco_435097,Some very big furry brown bears in a big grass field.,"bears, grass field, in",7,"1,2",relation,spatial,"relation - spatial (bears, grass field, in)",Are the bears in the grass field?
+coco_352431,A woman sitting on a couch in front of a laptop.,woman,1,0,entity,whole,entity - whole (woman),Is there a woman?
+coco_352431,A woman sitting on a couch in front of a laptop.,couch,2,0,entity,whole,entity - whole (couch),Is there a couch?
+coco_352431,A woman sitting on a couch in front of a laptop.,laptop,3,0,entity,whole,entity - whole (laptop),Is there a laptop?
+coco_352431,A woman sitting on a couch in front of a laptop.,"woman, sit",4,1,attribute,state,"attribute - state (woman, sit)", 
+coco_352431,A woman sitting on a couch in front of a laptop.,"woman, couch, on",5,"1,2",relation,spatial,"relation - spatial (woman, couch, on)",Is the woman sitting on the couch?
+coco_352431,A woman sitting on a couch in front of a laptop.,"couch, laptop, in front of",6,"2,3",relation,spatial,"relation - spatial (couch, laptop, in front of)",Is the couch in front of the laptop?
+coco_352431,A woman sitting on a couch in front of a laptop.,"woman, laptop, in front of",7,"1,3",relation,spatial,"relation - spatial (woman, laptop, in front of)",Is the woman in front of the laptop?
+coco_758774,A lady wearing red playing tennis on a blue and green court.,lady,1,0,entity,whole,entity - whole (lady),Is there a lady here?
+coco_758774,A lady wearing red playing tennis on a blue and green court.,court,3,0,entity,whole,entity - whole (court),Is there a court?
+coco_758774,A lady wearing red playing tennis on a blue and green court.,lady's clothing,4,1,entity,part,entity - part (lady's clothing), 
+coco_758774,A lady wearing red playing tennis on a blue and green court.,"lady's clothing, red",5,4,attribute,color,"attribute - color (lady's clothing, red)",Is the lady wearing red?
+coco_758774,A lady wearing red playing tennis on a blue and green court.,"court, blue",6,3,attribute,color,"attribute - color (court, blue)",Is the court blue?
+coco_758774,A lady wearing red playing tennis on a blue and green court.,"court, green",7,3,attribute,color,"attribute - color (court, green)",Is the court green?
+coco_758774,A lady wearing red playing tennis on a blue and green court.,"lady, court, on",8,"1,3",relation,spatial,"relation - spatial (lady, court, on)",Is the lady playing tennis?
+coco_758774,A lady wearing red playing tennis on a blue and green court.,"lady, tennis, play",9,"1,2",action, ,"action -  (lady, tennis, play)", 
+coco_625027,"A white slope covers the background, while the foreground features a grassy slope with several rams grazing and one measly and underdeveloped evergreen in the foreground.  ",slopes,1,0,entity,whole,entity - whole (slopes),Are there slopes?
+coco_625027,"A white slope covers the background, while the foreground features a grassy slope with several rams grazing and one measly and underdeveloped evergreen in the foreground.  ","slopes, ==2",2,1,other,count,"other - count (slopes, ==2)",Are there two slopes?
+coco_625027,"A white slope covers the background, while the foreground features a grassy slope with several rams grazing and one measly and underdeveloped evergreen in the foreground.  ",rams,3,0,entity,whole,entity - whole (rams),Are there rams?
+coco_625027,"A white slope covers the background, while the foreground features a grassy slope with several rams grazing and one measly and underdeveloped evergreen in the foreground.  ",evergreen,4,0,entity,whole,entity - whole (evergreen),Is there evergreen?
+coco_625027,"A white slope covers the background, while the foreground features a grassy slope with several rams grazing and one measly and underdeveloped evergreen in the foreground.  ","slope_1, white",5,1,attribute,color,"attribute - color (slope_1, white)",Is one slope white?
+coco_625027,"A white slope covers the background, while the foreground features a grassy slope with several rams grazing and one measly and underdeveloped evergreen in the foreground.  ","slope_2, grassy",6,1,attribute,texture,"attribute - texture (slope_2, grassy)",Is one slope grassy?
+coco_625027,"A white slope covers the background, while the foreground features a grassy slope with several rams grazing and one measly and underdeveloped evergreen in the foreground.  ","evergreen, measly and underdeveloped",7,5,attribute,state,"attribute - state (evergreen, measly and underdeveloped)",Is the evergreen measly and underdeveloped?
+coco_625027,"A white slope covers the background, while the foreground features a grassy slope with several rams grazing and one measly and underdeveloped evergreen in the foreground.  ","slope_1, background, in",8,1,relation,spatial,"relation - spatial (slope_1, background, in)",Is the white slope in the background?
+coco_625027,"A white slope covers the background, while the foreground features a grassy slope with several rams grazing and one measly and underdeveloped evergreen in the foreground.  ","slope_2, foreground, in",9,1,relation,spatial,"relation - spatial (slope_2, foreground, in)",Is the grassy slope in the foreground?
+coco_625027,"A white slope covers the background, while the foreground features a grassy slope with several rams grazing and one measly and underdeveloped evergreen in the foreground.  ","rams, slope_2, on",10,"1,3",relation,spatial,"relation - spatial (rams, slope_2, on)",Are the rams on the grassy slope?
+coco_625027,"A white slope covers the background, while the foreground features a grassy slope with several rams grazing and one measly and underdeveloped evergreen in the foreground.  ","rams, graze",11,3,attribute,state,"attribute - state (rams, graze)",Are the rams grazing on grass?
+coco_339729,A boy wearing a green shirt posing with some fruit.,boy,1,0,entity,whole,entity - whole (boy),Is there a boy?
+coco_339729,A boy wearing a green shirt posing with some fruit.,boy's shirt,2,1,entity,part,entity - part (boy's shirt),Is there a shirt?
+coco_339729,A boy wearing a green shirt posing with some fruit.,fruit,3,0,entity,whole,entity - whole (fruit), 
+coco_339729,A boy wearing a green shirt posing with some fruit.,"boy's shirt, green",4,2,attribute,color,"attribute - color (boy's shirt, green)",Is the shirt green?
+coco_339729,A boy wearing a green shirt posing with some fruit.,"boy, fruit, hold",5,"1,3",relation,spatial,"relation - spatial (boy, fruit, hold)",Is the boy posing with the fruits?
+coco_339729,A boy wearing a green shirt posing with some fruit.,"boy, pose",6,1,attribute,state,"attribute - state (boy, pose)", 
+coco_130602,"Woman dressed in black, smiling and brushing her teeth",woman,1,0,entity,whole,entity - whole (woman),Is there a woman?
+coco_130602,"Woman dressed in black, smiling and brushing her teeth",woman's teeth,2,1,entity,part,entity - part (woman's teeth),Are there any teeth?
+coco_130602,"Woman dressed in black, smiling and brushing her teeth",woman's clothing,3,1,entity,part,entity - part (woman's clothing), 
+coco_130602,"Woman dressed in black, smiling and brushing her teeth","woman's clothing, black",4,3,attribute,color,"attribute - color (woman's clothing, black)",Is the woman dressed in black?
+coco_130602,"Woman dressed in black, smiling and brushing her teeth","woman, smiling",5,1,attribute,state,"attribute - state (woman, smiling)",Is the woman smiling?
+coco_130602,"Woman dressed in black, smiling and brushing her teeth","woman, woman's teeth, brush",6,"1,2",action, ,"action -  (woman, woman's teeth, brush)",Is the woman brushing her teeth?
+coco_655658,A man in a black shirt plays on an ocean wave.,man,1,0,entity,whole,entity - whole (man),Is there a man?
+coco_655658,A man in a black shirt plays on an ocean wave.,man's shirt,2,1,entity,part,entity - part (man's shirt),Is there a shirt?
+coco_655658,A man in a black shirt plays on an ocean wave.,ocean wave,3,0,entity,whole,entity - whole (ocean wave),Is there an ocean wave?
+coco_655658,A man in a black shirt plays on an ocean wave.,"shirt, black",4,2,attribute,color,"attribute - color (shirt, black)",Is the shirt black?
+coco_655658,A man in a black shirt plays on an ocean wave.,"man, play",5,1,action, ,"action -  (man, play)",Is the man playing on the ocean wave?
+coco_655658,A man in a black shirt plays on an ocean wave.,"man, on, ocean wave",6,"1,3",relation,spatial,"relation - spatial (man, on, ocean wave)", 
+coco_179805,Some people posing in front of a camera for a picture. ,people,1,0,entity,whole,entity - whole (people),Are there people?
+coco_179805,Some people posing in front of a camera for a picture. ,"people, pose",2,1,attribute,state,"attribute - state (people, pose)", 
+coco_179805,Some people posing in front of a camera for a picture. ,camera,3,0,entity,whole,entity - whole (camera),Is there a camera?
+coco_179805,Some people posing in front of a camera for a picture. ,"people, camera, in front of",4,"1,3",relation,spatial,"relation - spatial (people, camera, in front of)",Are the people posing in front of the camera?
+coco_322041,"two laptops, a mouse cord, and a monitor ",laptops,1,0,entity,whole,entity - whole (laptops),Are there laptops?
+coco_322041,"two laptops, a mouse cord, and a monitor ","laptops, ==2",2,1,other,count,"other - count (laptops, ==2)",Are there two laptops?
+coco_322041,"two laptops, a mouse cord, and a monitor ",mouse coord,3,0,entity,whole,entity - whole (mouse coord),Is there a cord?
+coco_322041,"two laptops, a mouse cord, and a monitor ",monitor,4,0,entity,whole,entity - whole (monitor),Is there a monitor?
+coco_552592,A group of children sitting in the grass with two of them holding a Frisbee .,children,1,0,entity,whole,entity - whole (children),Are there a group of children?
+coco_552592,A group of children sitting in the grass with two of them holding a Frisbee .,grass,2,0,entity,whole,entity - whole (grass),Is there grass?
+coco_552592,A group of children sitting in the grass with two of them holding a Frisbee .,frisbee,3,0,entity,whole,entity - whole (frisbee),Is there a frisbee?
+coco_552592,A group of children sitting in the grass with two of them holding a Frisbee .,"children, sit",4,1,attribute,state,"attribute - state (children, sit)",Are the children sitting?
+coco_552592,A group of children sitting in the grass with two of them holding a Frisbee .,"children, grass, in",5,"1,2",relation,spatial,"relation - spatial (children, grass, in)",Are the children in the grass?
+coco_552592,A group of children sitting in the grass with two of them holding a Frisbee .,two of the children,6,1,entity,part,entity - part (two of the children),Are there two of the children?
+coco_552592,A group of children sitting in the grass with two of them holding a Frisbee .,"two of the children, frisbee, hold",7,"3,6",action, ,"action -  (two of the children, frisbee, hold)",Are two of the children holding a frisbee?
+coco_494732,A man in a green suit leaning over a laptop,man,1,0,entity,whole,entity - whole (man),Is there a man?
+coco_494732,A man in a green suit leaning over a laptop,man's suit,2,1,entity,part,entity - part (man's suit),Is there a suit?
+coco_494732,A man in a green suit leaning over a laptop,laptop,3,0,entity,whole,entity - whole (laptop),Is there a laptop?
+coco_494732,A man in a green suit leaning over a laptop,"man's suit, green",4,2,attribute,color,"attribute - color (man's suit, green)",Is the suit green?
+coco_494732,A man in a green suit leaning over a laptop,"man, laptop, lean over",5,"1,3",relation,spatial,"relation - spatial (man, laptop, lean over)",Is the man leaning over the laptop?
+coco_661609,A grey motorcycle on dirt road next to a building.,motorcycle,1,0,entity,whole,entity - whole (motorcycle),Is there a motorcycle?
+coco_661609,A grey motorcycle on dirt road next to a building.,road,2,0,entity,whole,entity - whole (road),Is there a road?
+coco_661609,A grey motorcycle on dirt road next to a building.,building,3,0,entity,whole,entity - whole (building),Is there a building?
+coco_661609,A grey motorcycle on dirt road next to a building.,"motorcycle, grey",4,1,attribute,color,"attribute - color (motorcycle, grey)",Is the motorcycle grey?
+coco_661609,A grey motorcycle on dirt road next to a building.,"road, dirt",5,2,attribute,texture,"attribute - texture (road, dirt)",Is the road a dirt road?
+coco_661609,A grey motorcycle on dirt road next to a building.,"motorcycle, building, next to",6,"1,3",relation,spatial,"relation - spatial (motorcycle, building, next to)",Is the motorcycle next to the building?
+coco_661609,A grey motorcycle on dirt road next to a building.,"road, building, next to",7,"2,3",relation,spatial,"relation - spatial (road, building, next to)",Is the road next to the building?
+coco_224178,A table topped with bags of luggage and purses.,table,1,0,entity,whole,entity - whole (table),Is there a table?
+coco_224178,A table topped with bags of luggage and purses.,bags,2,0,entity,whole,entity - whole (bags), 
+coco_224178,A table topped with bags of luggage and purses.,luggage,3,0,entity,whole,entity - whole (luggage),Is there any luggage?
+coco_224178,A table topped with bags of luggage and purses.,purses,4,0,entity,whole,entity - whole (purses),Are there any purses?
+coco_224178,A table topped with bags of luggage and purses.,"luggage, bag, in",5,"2,3",relation,spatial,"relation - spatial (luggage, bag, in)",Are the luggage and purses in bags?
+coco_224178,A table topped with bags of luggage and purses.,"purses, bag, in",6,"2,4",relation,spatial,"relation - spatial (purses, bag, in)", 
+coco_224178,A table topped with bags of luggage and purses.,"bags, table, on top of",7,"1,2",relation,spatial,"relation - spatial (bags, table, on top of)",Are the bags on top of the table?
+coco_827653,People are wearing helmets standing next to bikes in the woods.,people,1,0,entity,whole,entity - whole (people),Are there any people?
+coco_827653,People are wearing helmets standing next to bikes in the woods.,people's helmets,2,1,entity,part,entity - part (people's helmets),Are there any bikes?
+coco_827653,People are wearing helmets standing next to bikes in the woods.,bikes,3,0,entity,whole,entity - whole (bikes),Are the people standing?
+coco_827653,People are wearing helmets standing next to bikes in the woods.,woods,4,0,entity,whole,entity - whole (woods),Are the people next to the bikes?
+coco_827653,People are wearing helmets standing next to bikes in the woods.,"people, bike, next to",5,"1,3",relation,spatial,"relation - spatial (people, bike, next to)",Are the bikes in the woods?
+coco_827653,People are wearing helmets standing next to bikes in the woods.,"people, stand",6,1,attribute,state,"attribute - state (people, stand)", 
+coco_827653,People are wearing helmets standing next to bikes in the woods.,"people, woods, in",7,"1,4",relation,spatial,"relation - spatial (people, woods, in)", 
+coco_827653,People are wearing helmets standing next to bikes in the woods.,"bikes, woods, in",8,"3,4",relation,spatial,"relation - spatial (bikes, woods, in)", 
+coco_511363,A woman is bent over next to a small refrigerator.,woman,1,0,entity,whole,entity - whole (woman),Is there a woman?
+coco_511363,A woman is bent over next to a small refrigerator.,refrigerator,2,0,entity,whole,entity - whole (refrigerator),Do we have a refrigerator?
+coco_511363,A woman is bent over next to a small refrigerator.,"woman, bent over",3,1,attribute,state,"attribute - state (woman, bent over)",Is the woman bent over?
+coco_511363,A woman is bent over next to a small refrigerator.,"refrigerator, small",4,2,attribute,scale,"attribute - scale (refrigerator, small)",Is the refrigerator small?
+coco_511363,A woman is bent over next to a small refrigerator.,"woman, refrigerator, next to",5,"1,2",relation,spatial,"relation - spatial (woman, refrigerator, next to)",Is the woman next to a small refrigerator?
+coco_54581,A group of surfers are carrying their surf boards into the ocean.,surfers,1,0,entity,whole,entity - whole (surfers),Are there any surfers?
+coco_54581,A group of surfers are carrying their surf boards into the ocean.,surf boards,2,0,entity,whole,entity - whole (surf boards),Are there any surfboards?
+coco_54581,A group of surfers are carrying their surf boards into the ocean.,ocean,3,0,entity,whole,entity - whole (ocean),Is there an ocean?
+coco_54581,A group of surfers are carrying their surf boards into the ocean.,"surfers, surf boards, carry",4,"1,2",relation,spatial,"relation - spatial (surfers, surf boards, carry)",Are the surfers carrying the surf boards?
+coco_54581,A group of surfers are carrying their surf boards into the ocean.,"surfers, ocean, head into",5,"1,3",relation,spatial,"relation - spatial (surfers, ocean, head into)",Are the surfers heading into the ocean?
+coco_544405,a woman in a black jacket and a pizza ,woman,1,0,entity,whole,entity - whole (woman),Is there a woman?
+coco_544405,a woman in a black jacket and a pizza ,woman's jacket,2,1,entity,part,entity - part (woman's jacket),Is there a jacket?
+coco_544405,a woman in a black jacket and a pizza ,pizza,3,0,entity,whole,entity - whole (pizza),Do we have pizza?
+coco_544405,a woman in a black jacket and a pizza ,"woman's jacket, black",4,2,attribute,color,"attribute - color (woman's jacket, black)",Is the jacket black?
+coco_464482,A sign laying on a lush green field near a body of water.,sign,1,0,entity,whole,entity - whole (sign),Is there a sign?
+coco_464482,A sign laying on a lush green field near a body of water.,field,2,0,entity,whole,entity - whole (field),Is there a field?
+coco_464482,A sign laying on a lush green field near a body of water.,body of water,3,0,entity,whole,entity - whole (body of water),Is there a body of water?
+coco_464482,A sign laying on a lush green field near a body of water.,"field, lush",4,2,attribute,state,"attribute - state (field, lush)",Is the field lush?
+coco_464482,A sign laying on a lush green field near a body of water.,"field, green",5,2,attribute,material,"attribute - material (field, green)",Is the field green?
+coco_464482,A sign laying on a lush green field near a body of water.,"sign, field, on",6,"1,2",relation,spatial,"relation - spatial (sign, field, on)",Is the sign laying on the field?
+coco_464482,A sign laying on a lush green field near a body of water.,"field, body of water, near",7,"2,3",relation,spatial,"relation - spatial (field, body of water, near)",Is the field near the body of water?
+coco_555553,Three zebras eat hay in black and white.,zebras,1,0,entity,whole,entity - whole (zebras),Are there three zebras?
+coco_555553,Three zebras eat hay in black and white.,"zebras, == 3",2,1,other,count,"other - count (zebras, == 3)", 
+coco_555553,Three zebras eat hay in black and white.,hay,3,0,entity,whole,entity - whole (hay),Is there any hay?
+coco_555553,Three zebras eat hay in black and white.,black and white,4,0,global, ,global -  (black and white),Is the image black and white?
+coco_555553,Three zebras eat hay in black and white.,"zebras, hay, eat",5,"1,3",action, ,"action -  (zebras, hay, eat)",Are the zebras eating the hay?
+coco_645405,A teddy bear under some furniture that appears to be turned on its side.,teddy bear,1,0,entity,whole,entity - whole (teddy bear),Is there a teddy bear?
+coco_645405,A teddy bear under some furniture that appears to be turned on its side.,furniture,2,0,entity,whole,entity - whole (furniture),Is there any furniture?
+coco_645405,A teddy bear under some furniture that appears to be turned on its side.,"furniture, turned to its side",3,2,attribute,state,"attribute - state (furniture, turned to its side)",Is the furniture on its side?
+coco_645405,A teddy bear under some furniture that appears to be turned on its side.,"teddy bear, under, furniture",4,"1,2",relation,spatial,"relation - spatial (teddy bear, under, furniture)",Is the teddy bear under the furniture?
+coco_559555,A large giraffe looks at a smaller giraffe looking over a fence.,giraffes,1,0,entity,whole,entity - whole (giraffes),Are there two giraffe?
+coco_559555,A large giraffe looks at a smaller giraffe looking over a fence.,"giraffes, ==2",2,1,other,count,"other - count (giraffes, ==2)",Is there a fence?
+coco_559555,A large giraffe looks at a smaller giraffe looking over a fence.,"giraffe_1, giraffe_2, larger",3,"1,2",relation,scale,"relation - scale (giraffe_1, giraffe_2, larger)",Is one giraffe large?
+coco_559555,A large giraffe looks at a smaller giraffe looking over a fence.,fence,4,0,entity,whole,entity - whole (fence),Is the other giraffe small?
+coco_559555,A large giraffe looks at a smaller giraffe looking over a fence.,"giraffe_1, giraffe_2, look at",5,"1,2",action, ,"action -  (giraffe_1, giraffe_2, look at)",Are the giraffes looking over the fence?
+coco_559555,A large giraffe looks at a smaller giraffe looking over a fence.,"giraffe_2, fence, look over",6,"1,2",action, ,"action -  (giraffe_2, fence, look over)", 
+coco_559555,A large giraffe looks at a smaller giraffe looking over a fence.,"giraffe_1, large",7,"1,2",attribute,scale,"attribute - scale (giraffe_1, large)", 
+coco_685662,A man and a woman posing in front of a motorcycle.,man,1,0,entity,whole,entity - whole (man),Is there a man?
+coco_685662,A man and a woman posing in front of a motorcycle.,woman,2,0,entity,whole,entity - whole (woman),Is there a woman?
+coco_685662,A man and a woman posing in front of a motorcycle.,motorcycle,3,0,entity,whole,entity - whole (motorcycle),Is there a motorcycle?
+coco_685662,A man and a woman posing in front of a motorcycle.,"man, pose",4,1,attribute,state,"attribute - state (man, pose)",Are they posing?
+coco_685662,A man and a woman posing in front of a motorcycle.,"woman, pose",5,2,action, ,"action -  (woman, pose)", 
+coco_685662,A man and a woman posing in front of a motorcycle.,"man, motorcycle, in front of",6,"1,3",relation,spatial,"relation - spatial (man, motorcycle, in front of)",Are the man and woman in front of the motorcycle?
+coco_685662,A man and a woman posing in front of a motorcycle.,"woman, motorcycle, in front of",7,"2,3",relation,spatial,"relation - spatial (woman, motorcycle, in front of)",Are the man and woman in front of the motorcycle?
+coco_544211,"The beach is crowded, with red and white beach umbrellas.",beach,1,0,entity,whole,entity - whole (beach),Is there a beach?
+coco_544211,"The beach is crowded, with red and white beach umbrellas.",umbrellas,2,0,entity,whole,entity - whole (umbrellas), 
+coco_544211,"The beach is crowded, with red and white beach umbrellas.","umbrellas, red",3,2,attribute,color,"attribute - color (umbrellas, red)", 
+coco_544211,"The beach is crowded, with red and white beach umbrellas.","umbrellas, white",4,2,attribute,color,"attribute - color (umbrellas, white)",Are there any red umbrellas?
+coco_544211,"The beach is crowded, with red and white beach umbrellas.","umbrellas, beach, on",5,"1,2",relation,spatial,"relation - spatial (umbrellas, beach, on)",Are the umbrellas on the beach?
+coco_720267,three men riding horses through a grassy field,men,1,0,entity,whole,entity - whole (men), 
+coco_720267,three men riding horses through a grassy field,"men, ==3",2,1,other,count,"other - count (men, ==3)",Are there three men?
+coco_720267,three men riding horses through a grassy field,horses,3,0,entity,whole,entity - whole (horses),Are there any horses?
+coco_720267,three men riding horses through a grassy field,"horses, ==3",4,3,other,count,"other - count (horses, ==3)", 
+coco_720267,three men riding horses through a grassy field,field,5,0,entity,whole,entity - whole (field),Is there a field?
+coco_720267,three men riding horses through a grassy field,"field, grassy",6,3,attribute,material,"attribute - material (field, grassy)",Is the field grassy?
+coco_720267,three men riding horses through a grassy field,"men, horses, riding",7,"1,2",action, ,"action -  (men, horses, riding)",Are the men riding horses?
+coco_720267,three men riding horses through a grassy field,"men, field, passing through",8,"1,3",action, ,"action -  (men, field, passing through)",Are the men passing through the field?
+coco_720267,three men riding horses through a grassy field,"horses, field, passing through",9,"2,3",action, ,"action -  (horses, field, passing through)",Are the horses passing through the field?
+coco_103653,Two men in neon yellow safety jackets sharing a meal next to a food truck.,men,1,0,entity,whole,entity - whole (men), 
+coco_103653,Two men in neon yellow safety jackets sharing a meal next to a food truck.,"men, ==2",2,1,other,count,"other - count (men, ==2)",Are there two men?
+coco_103653,Two men in neon yellow safety jackets sharing a meal next to a food truck.,men's jackets,3,1,entity,part,entity - part (men's jackets),Are there any jackets?
+coco_103653,Two men in neon yellow safety jackets sharing a meal next to a food truck.,meal,4,0,entity,whole,entity - whole (meal),Is there a meal?
+coco_103653,Two men in neon yellow safety jackets sharing a meal next to a food truck.,truck,5,0,entity,whole,entity - whole (truck),Is there a truck?
+coco_103653,Two men in neon yellow safety jackets sharing a meal next to a food truck.,"men's jackets, safety",6,2,attribute,type,"attribute - type (men's jackets, safety)",Are the jackets safety jackets?
+coco_103653,Two men in neon yellow safety jackets sharing a meal next to a food truck.,"men's jackets, neon yellow",7,2,attribute,color,"attribute - color (men's jackets, neon yellow)",Are the jackets neon yellow?
+coco_103653,Two men in neon yellow safety jackets sharing a meal next to a food truck.,"truck, food",8,4,attribute,type,"attribute - type (truck, food)",Is the truck a food truck?
+coco_103653,Two men in neon yellow safety jackets sharing a meal next to a food truck.,"man_1, meal, share, man_2",9,"1,2,5",action, ,"action -  (man_1, meal, share, man_2)",Are the men sharing the meal?
+coco_103653,Two men in neon yellow safety jackets sharing a meal next to a food truck.,"men, truck, next to",10,"1,4",relation,spatial,"relation - spatial (men, truck, next to)",Are the men next to the truck?
+coco_800322,a dog is laying with a remote controller,dog,1,0,entity,whole,entity - whole (dog),Is there a dog?
+coco_800322,a dog is laying with a remote controller,remote controller,2,0,entity,whole,entity - whole (remote controller),Do you have a remote controller?
+coco_800322,a dog is laying with a remote controller,"dog, laying",3,1,attribute,state,"attribute - state (dog, laying)",Is the dog laying?
+coco_800322,a dog is laying with a remote controller,"dog, remote controller, next to",4,"1,2",relation,spatial,"relation - spatial (dog, remote controller, next to)",Is the dog next to the remote controller?
+coco_488166,Three people standing next to an elephant along a river.,people,1,0,entity,whole,entity - whole (people),Are there people?
+coco_488166,Three people standing next to an elephant along a river.,"people, ==3",2,1,other,count,"other - count (people, ==3)",Are there three people?
+coco_488166,Three people standing next to an elephant along a river.,elephant,3,0,entity,whole,entity - whole (elephant),Is there an elephant?
+coco_488166,Three people standing next to an elephant along a river.,river,4,0,entity,whole,entity - whole (river),Is there a river?
+coco_488166,Three people standing next to an elephant along a river.,"people, stand",5,1,attribute,state,"attribute - state (people, stand)",Are the people standing?
+coco_488166,Three people standing next to an elephant along a river.,"people, elephant, next to",6,"1,3",relation,spatial,"relation - spatial (people, elephant, next to)",Are the people next to the elephant?
+coco_488166,Three people standing next to an elephant along a river.,"people, river, next to",7,"1,4",relation,spatial,"relation - spatial (people, river, next to)",Are the people next to the river?
+coco_488166,Three people standing next to an elephant along a river.,"elephant, river, next to",8,"3,4",relation,spatial,"relation - spatial (elephant, river, next to)",Is the elephant next to the river?
+coco_558559,Guy sitting down and using his cell during the party,guy,1,0,entity,whole,entity - whole (guy),Is there a guy?
+coco_558559,Guy sitting down and using his cell during the party,the guy's cell,2,1,entity,part,entity - part (the guy's cell),Do you have a cell phone?
+coco_558559,Guy sitting down and using his cell during the party,party,3,0,entity,whole,entity - whole (party),Is this a party?
+coco_558559,Guy sitting down and using his cell during the party,"guy, sit down",4,1,attribute,state,"attribute - state (guy, sit down)",Is the guy sitting down?
+coco_558559,Guy sitting down and using his cell during the party,"guy, the guy's cell, use",5,"1,2",action, ,"action -  (guy, the guy's cell, use)",Is the guy using the cell phone?
+coco_573015,The people are flying the kites in the sky.,people,1,0,entity,whole,entity - whole (people), 
+coco_573015,The people are flying the kites in the sky.,kites,2,0,entity,whole,entity - whole (kites), 
+coco_573015,The people are flying the kites in the sky.,sky,3,0,entity,whole,entity - whole (sky),Is there a sky?
+coco_573015,The people are flying the kites in the sky.,"people, kites, fly",4,"1,2",action, ,"action -  (people, kites, fly)",Are the people flying the kites?
+coco_573015,The people are flying the kites in the sky.,"kites, sky, in",5,"2,3",relation,spatial,"relation - spatial (kites, sky, in)",Are the kites in the sky?
+coco_20046,An elevated subway train in a major city on a sunny day.,subway train,1,0,entity,whole,entity - whole (subway train),Is there a subway train?
+coco_20046,An elevated subway train in a major city on a sunny day.,major city,2,0,entity,whole,entity - whole (major city),Is this a major city?
+coco_20046,An elevated subway train in a major city on a sunny day.,sunny day,3,0,global, ,global -  (sunny day),Is it a sunny day?
+coco_20046,An elevated subway train in a major city on a sunny day.,"subway train, elevated",4,1,attribute,state,"attribute - state (subway train, elevated)",Is the subway train elevated?
+coco_20046,An elevated subway train in a major city on a sunny day.,"subway train, major city, in",5,"1,2",relation,spatial,"relation - spatial (subway train, major city, in)",Is the subway in the city?
+coco_251210,A man standing by an oven with the door open.,man,1,0,entity,whole,entity - whole (man),Is there a man?
+coco_251210,A man standing by an oven with the door open.,oven,2,0,entity,whole,entity - whole (oven),Do we have an oven?
+coco_251210,A man standing by an oven with the door open.,"man, stand",3,1,attribute,state,"attribute - state (man, stand)",Is the man standing?
+coco_251210,A man standing by an oven with the door open.,oven's door,4,2,entity,part,entity - part (oven's door),Does the oven have a door?
+coco_251210,A man standing by an oven with the door open.,"oven's door, open",5,2,attribute,state,"attribute - state (oven's door, open)",Is the door open?
+coco_251210,A man standing by an oven with the door open.,"man, oven, next to",6,"1,2",relation,spatial,"relation - spatial (man, oven, next to)",Is the man next to the oven?
+coco_492730,A woman holding a racquet on top of a tennis court.,woman,1,0,entity,whole,entity - whole (woman),Is there a woman?
+coco_492730,A woman holding a racquet on top of a tennis court.,racquet,2,0,entity,whole,entity - whole (racquet),Is there a racquet?
+coco_492730,A woman holding a racquet on top of a tennis court.,tennis court,3,0,entity,whole,entity - whole (tennis court),Is there a tennis court?
+coco_492730,A woman holding a racquet on top of a tennis court.,"woman, racquet, hold",4,"1,2",relation,spatial,"relation - spatial (woman, racquet, hold)",Is the woman holding the racquet?
+coco_492730,A woman holding a racquet on top of a tennis court.,"woman, tennis court, on",5,"1,3",relation,spatial,"relation - spatial (woman, tennis court, on)",Is the woman on the tennis court?
+coco_99268,a skateboarder in a blue jacket is doing a trick,skateboarder,1,0,entity,whole,entity - whole (skateboarder),Is there a skateboarder?
+coco_99268,a skateboarder in a blue jacket is doing a trick,skateboarder's jacket,2,1,entity,part,entity - part (skateboarder's jacket),Is there a jacket?
+coco_99268,a skateboarder in a blue jacket is doing a trick,"skateboarder's jacket, blue",3,2,attribute,color,"attribute - color (skateboarder's jacket, blue)",Is the jacket blue?
+coco_99268,a skateboarder in a blue jacket is doing a trick,"skateboarder, doing a trick",4,1,action, ,"action -  (skateboarder, doing a trick)",Is the skateboarder doing a trick?
+coco_694975,man with a tennis racket waits for the ball,man,1,0,entity,whole,entity - whole (man),Is there a man?
+coco_694975,man with a tennis racket waits for the ball,tennis racket,2,0,entity,whole,entity - whole (tennis racket),Is there a racket?
+coco_694975,man with a tennis racket waits for the ball,ball,3,0,entity,whole,entity - whole (ball), 
+coco_694975,man with a tennis racket waits for the ball,"man, ball, wait for",4,"1,3",action, ,"action -  (man, ball, wait for)",Is the racket a tennis racket?
+coco_694975,man with a tennis racket waits for the ball,"man, tennis racket, hold",5,"1,2",relation,spatial,"relation - spatial (man, tennis racket, hold)",Is the man holding the tennis racket?
+coco_764251,Young kitten along windowpane watching the rain tap on the glass.,kitten,1,0,entity,whole,entity - whole (kitten),Is there a kitten?
+coco_764251,Young kitten along windowpane watching the rain tap on the glass.,windowpane,2,0,entity,whole,entity - whole (windowpane),Is there a windowpane?
+coco_764251,Young kitten along windowpane watching the rain tap on the glass.,rain,3,0,entity,whole,entity - whole (rain),Is it raining?
+coco_764251,Young kitten along windowpane watching the rain tap on the glass.,"kitten, young",4,1,attribute,state,"attribute - state (kitten, young)",Is the kitten young?
+coco_764251,Young kitten along windowpane watching the rain tap on the glass.,"windowpane, glass",5,2,attribute,material,"attribute - material (windowpane, glass)",Does the windowpane have glass?
+coco_764251,Young kitten along windowpane watching the rain tap on the glass.,"rain, windowpane, tap",6,"2,3",action, ,"action -  (rain, windowpane, tap)",Is the rain tapping on the windowpane?
+coco_764251,Young kitten along windowpane watching the rain tap on the glass.,"kitten, rain, watch",7,"1,3",action, ,"action -  (kitten, rain, watch)",Is the kitten watching the rain?
+coco_247543,Multiple skiers travelling across a vast expanse of snow covered land towards a mountain.,skiers,1,0,entity,whole,entity - whole (skiers),Are there any skiers?
+coco_247543,Multiple skiers travelling across a vast expanse of snow covered land towards a mountain.,snow,2,0,entity,whole,entity - whole (snow),Is there an expanse of land?
+coco_247543,Multiple skiers travelling across a vast expanse of snow covered land towards a mountain.,land,3,0,entity,whole,entity - whole (land),Is there snow?
+coco_247543,Multiple skiers travelling across a vast expanse of snow covered land towards a mountain.,mountain,4,0,entity,whole,entity - whole (mountain),Is there a mountain?
+coco_247543,Multiple skiers travelling across a vast expanse of snow covered land towards a mountain.,"land, vast expanse",5,3,attribute,scale,"attribute - scale (land, vast expanse)",Is the expanse of land vast?
+coco_247543,Multiple skiers travelling across a vast expanse of snow covered land towards a mountain.,"snow, land, cover",6,"2,3",relation,spatial,"relation - spatial (snow, land, cover)",Is the expanse of land covered in snow?
+coco_247543,Multiple skiers travelling across a vast expanse of snow covered land towards a mountain.,"skiers, land, travel across",7,"1,3",action, ,"action -  (skiers, land, travel across)",Are there skiers travelling along the land?
+coco_247543,Multiple skiers travelling across a vast expanse of snow covered land towards a mountain.,"skiers, mountain, travel toward",8,"1,4",action, ,"action -  (skiers, mountain, travel toward)", 
+coco_549140,A brown bear walking across a forest surrounded by trees.,bear,1,0,entity,whole,entity - whole (bear),Is there a bear?
+coco_549140,A brown bear walking across a forest surrounded by trees.,forest,2,0,entity,whole,entity - whole (forest),Is there a forest?
+coco_549140,A brown bear walking across a forest surrounded by trees.,"bear, brown",3,1,attribute,color,"attribute - color (bear, brown)",Is the bear brown?
+coco_549140,A brown bear walking across a forest surrounded by trees.,"bear, forest, walk across",4,"1,2",action, ,"action -  (bear, forest, walk across)",Is the bear walking across the forest?
+coco_549140,A brown bear walking across a forest surrounded by trees.,"bear, trees, surrounded by",5,"1,2",relation,spatial,"relation - spatial (bear, trees, surrounded by)",Are there trees surrounding the bear?
+coco_71258,A house where you can see the bedroom and relaxing room.,house,1,0,entity,whole,entity - whole (house),Is there a house?
+coco_71258,A house where you can see the bedroom and relaxing room.,bedroom,2,0,entity,whole,entity - whole (bedroom),Is there a bedroom?
+coco_71258,A house where you can see the bedroom and relaxing room.,relaxing room,3,0,entity,whole,entity - whole (relaxing room),Is there another room?
+coco_71258,A house where you can see the bedroom and relaxing room.,"bedroom, house, in",4,"1,2",relation,spatial,"relation - spatial (bedroom, house, in)",Is the bedroom in the house?
+coco_71258,A house where you can see the bedroom and relaxing room.,"relaxing room, house, in",5,"1,3",relation,spatial,"relation - spatial (relaxing room, house, in)",Is the relaxing room in the house?
+coco_463732,A young woman is playing a video game on a couch.,woman,1,0,entity,whole,entity - whole (woman),Is there a woman?
+coco_463732,A young woman is playing a video game on a couch.,video game,2,0,entity,whole,entity - whole (video game),Is there an ongoing video game?
+coco_463732,A young woman is playing a video game on a couch.,couch,3,0,entity,whole,entity - whole (couch),Do you have a couch?
+coco_463732,A young woman is playing a video game on a couch.,"woman, video game, playing",4,"1,2",action, ,"action -  (woman, video game, playing)",Is the woman playing the video game?
+coco_463732,A young woman is playing a video game on a couch.,"woman, couch, on",5,"1,3",relation,spatial,"relation - spatial (woman, couch, on)",Is the woman on the couch?
+coco_463732,A young woman is playing a video game on a couch.,"woman, young",6,1,attribute,state,"attribute - state (woman, young)", 
+coco_572796,A young woman with green eyes and piercings all over her face.,woman,1,0,entity,whole,entity - whole (woman),Is there a woman?
+coco_572796,A young woman with green eyes and piercings all over her face.,woman's eyes,2,1,entity,part,entity - part (woman's eyes),Are there any eyes?
+coco_572796,A young woman with green eyes and piercings all over her face.,woman's face,3,1,entity,part,entity - part (woman's face),Is there a face?
+coco_572796,A young woman with green eyes and piercings all over her face.,woman's piercings,4,1,entity,part,entity - part (woman's piercings),Do you have any piercings?
+coco_572796,A young woman with green eyes and piercings all over her face.,"woman, young",5,1,attribute,state,"attribute - state (woman, young)",Is the woman young?
+coco_572796,A young woman with green eyes and piercings all over her face.,"woman's eyes, green",6,2,attribute,color,"attribute - color (woman's eyes, green)",Are the eyes green?
+coco_572796,A young woman with green eyes and piercings all over her face.,"woman's piercings, face, all over",7,"3,4",relation,spatial,"relation - spatial (woman's piercings, face, all over)",Are the piercings all over the face?
+coco_669925,A Christmas tree with lights and teddy bear,Christmas tree,1,0,entity,whole,entity - whole (Christmas tree),Is there a Christmas tree?
+coco_669925,A Christmas tree with lights and teddy bear,lights,2,0,entity,whole,entity - whole (lights),Are there any lights?
+coco_669925,A Christmas tree with lights and teddy bear,teddy bear,3,0,entity,whole,entity - whole (teddy bear),Is there a teddy bear?
+coco_669925,A Christmas tree with lights and teddy bear,"Christmas tree, lights, with",4,"1,2",relation,spatial,"relation - spatial (Christmas tree, lights, with)",Are the lights on the Christmas tree?
+coco_669925,A Christmas tree with lights and teddy bear,"Christmas tree, teddy bear, with",5,"1,3",relation,spatial,"relation - spatial (Christmas tree, teddy bear, with)",Is the teddy bear next to the Christmas tree?
+coco_67370,A car and a truck sitting a red light.,car,1,0,entity,whole,entity - whole (car),Is there a car?
+coco_67370,A car and a truck sitting a red light.,truck,2,0,entity,whole,entity - whole (truck),Is there a truck?
+coco_67370,A car and a truck sitting a red light.,traffic light,3,0,entity,whole,entity - whole (traffic light),Is there a traffic light?
+coco_67370,A car and a truck sitting a red light.,"traffic light, red",4,3,attribute,color,"attribute - color (traffic light, red)",Is the traffic light red?
+coco_67370,A car and a truck sitting a red light.,"car, red light, sit at",5,"1,3",relation,spatial,"relation - spatial (car, red light, sit at)", 
+coco_67370,A car and a truck sitting a red light.,"truck, red light, sit at",5,"2,3",relation,spatial,"relation - spatial (truck, red light, sit at)",Are the car and truck at the red light?
+coco_413279,Small white toilet with seashells sitting on top of it. ,toilet,1,0,entity,whole,entity - whole (toilet),Is there a toilet?
+coco_413279,Small white toilet with seashells sitting on top of it. ,seashells,2,0,entity,whole,entity - whole (seashells), 
+coco_413279,Small white toilet with seashells sitting on top of it. ,"toilet, white",3,1,attribute,color,"attribute - color (toilet, white)",Is the toilet white?
+coco_413279,Small white toilet with seashells sitting on top of it. ,"toilet, small",4,1,attribute,scale,"attribute - scale (toilet, small)",Is the toilet small?
+coco_413279,Small white toilet with seashells sitting on top of it. ,"seashell, toilet, on top of",5,"1,2",relation,spatial,"relation - spatial (seashell, toilet, on top of)",Are the seashells on top of the toilet?
+coco_666114,A little boy grips a soccer ball in his arms surrounded by other youth soccer players.,boy,1,0,entity,whole,entity - whole (boy),Is there a boy?
+coco_666114,A little boy grips a soccer ball in his arms surrounded by other youth soccer players.,ball,2,0,entity,whole,entity - whole (ball),Is there a ball?
+coco_666114,A little boy grips a soccer ball in his arms surrounded by other youth soccer players.,soccer players,3,0,entity,whole,entity - whole (soccer players),Are there other soccer players?
+coco_666114,A little boy grips a soccer ball in his arms surrounded by other youth soccer players.,boy's arms,4,1,entity,part,entity - part (boy's arms),Does the boy have arms?
+coco_666114,A little boy grips a soccer ball in his arms surrounded by other youth soccer players.,"boy, little",5,0,entity,scale,"entity - scale (boy, little)",Is the boy little?
+coco_666114,A little boy grips a soccer ball in his arms surrounded by other youth soccer players.,"ball, soccer",6,2,attribute,type,"attribute - type (ball, soccer)",Is the ball a soccer ball?
+coco_666114,A little boy grips a soccer ball in his arms surrounded by other youth soccer players.,"soccer players, youth",7,3,attribute,state,"attribute - state (soccer players, youth)",Are the other soccer players young?
+coco_666114,A little boy grips a soccer ball in his arms surrounded by other youth soccer players.,"boy, ball, grip in his arms",8,"1,2, 4",relation,spatial,"relation - spatial (boy, ball, grip in his arms)",Is the boy gripping the ball in his arms?
+coco_666114,A little boy grips a soccer ball in his arms surrounded by other youth soccer players.,"boy, soccer players, surrounded by",9,"1,3",relation,spatial,"relation - spatial (boy, soccer players, surrounded by)",Is the boy surrounded by the other soccer players?
+coco_321596,A chair in the corner on a boat.,chair,1,0,entity,whole,entity - whole (chair),Is there a chair?
+coco_321596,A chair in the corner on a boat.,boat,2,0,entity,whole,entity - whole (boat),Is there a boat?
+coco_321596,A chair in the corner on a boat.,"chair, boat, on",3,"1,2",relation,spatial,"relation - spatial (chair, boat, on)",Is the chair on the boat?
+coco_321596,A chair in the corner on a boat.,"chair, the boat, in the corner of",4,"1,2",relation,spatial,"relation - spatial (chair, the boat, in the corner of)",Is the chair located in the corner of the boat?
+coco_602469,A teddy bear store is decorated with signs and bears.,store,1,0,entity,whole,entity - whole (store),Is there a store?
+coco_602469,A teddy bear store is decorated with signs and bears.,signs,2,0,entity,whole,entity - whole (signs),Are there any signs?
+coco_602469,A teddy bear store is decorated with signs and bears.,bears,4,0,entity,whole,entity - whole (bears), 
+coco_602469,A teddy bear store is decorated with signs and bears.,"store, teddy bear",5,1,attribute,type,"attribute - type (store, teddy bear)",Does the store sell teddy bears?
+coco_602469,A teddy bear store is decorated with signs and bears.,"store, signs, decorated with",6,"1,2",relation,spatial,"relation - spatial (store, signs, decorated with)",Are the signs decorating the store?
+coco_602469,A teddy bear store is decorated with signs and bears.,"store, bears, decorated with",7,"1,3",relation,spatial,"relation - spatial (store, bears, decorated with)",Is the store decorated with the teddy bears?
+coco_29031,A cat lying a top on the desk on a laptop. ,cat,1,0,entity,whole,entity - whole (cat),Is there a cat?
+coco_29031,A cat lying a top on the desk on a laptop. ,desk,2,0,entity,whole,entity - whole (desk),Is there a desk?
+coco_29031,A cat lying a top on the desk on a laptop. ,laptop,3,0,entity,whole,entity - whole (laptop),Is there a laptop?
+coco_29031,A cat lying a top on the desk on a laptop. ,"cat, lying",4,1,attribute,state,"attribute - state (cat, lying)",Is the cat lying?
+coco_29031,A cat lying a top on the desk on a laptop. ,"cat, desk, on",5,"1,2",relation,spatial,"relation - spatial (cat, desk, on)",Is there a cat on the desk?
+coco_29031,A cat lying a top on the desk on a laptop. ,"cat, laptop, on top of",6,"1,3",relation,spatial,"relation - spatial (cat, laptop, on top of)",Is the cat on top of the laptop?
+coco_29031,A cat lying a top on the desk on a laptop. ,"laptop, desk, on top of",7,"2,3",relation,spatial,"relation - spatial (laptop, desk, on top of)",Is there a laptop on top of the desk?
+coco_361740,A male skateboarder is trying to pull off a trick on the ramp. ,skateboarder,1,0,entity,whole,entity - whole (skateboarder),Is there a skateboarder?
+coco_361740,A male skateboarder is trying to pull off a trick on the ramp. ,ramp,2,0,entity,whole,entity - whole (ramp),Is there a ramp?
+coco_361740,A male skateboarder is trying to pull off a trick on the ramp. ,"skateboarder, male",3,1,attribute,type,"attribute - type (skateboarder, male)",Is the skateboarder male?
+coco_361740,A male skateboarder is trying to pull off a trick on the ramp. ,"skateboarder, pull off a trick",4,1,action, ,"action -  (skateboarder, pull off a trick)",Is the skateboarder pulling off a trick?
+coco_361740,A male skateboarder is trying to pull off a trick on the ramp. ,"skateboarder, ramp, on",5,"1,2",relation,spatial,"relation - spatial (skateboarder, ramp, on)",Is the skateboarder on the ramp?
+drawbench_41,Two dogs on the street.,dogs,1,0,entity,whole,entity - whole (dogs),Are there dogs?
+drawbench_41,Two dogs on the street.,"dogs, ==2",2,1,other,count,"other - count (dogs, ==2)",Are there two dogs?
+drawbench_41,Two dogs on the street.,street,3,0,entity,whole,entity - whole (street),Is there a street?
+drawbench_41,Two dogs on the street.,"dogs, street, on",4,"1,3",relation,spatial,"relation - spatial (dogs, street, on)",Are the dogs on the street?
+drawbench_57,A cube made of denim. A cube with the texture of denim.,cube,1,0,entity,whole,entity - whole (cube),Is there a cube?
+drawbench_57,A cube made of denim. A cube with the texture of denim.,"cube, denim",2,1,attribute,material,"attribute - material (cube, denim)",Is the cube made of denim?
+drawbench_57,A cube made of denim. A cube with the texture of denim.,"cube, denim",3,1,attribute,texture,"attribute - texture (cube, denim)",Does the cube have texture of denim?
+drawbench_68,"A stack of 3 books. A green book is on the top, sitting on a red book. The red book is in the middle, sitting on a blue book. The blue book is on the bottom.",books,1,0,entity,whole,entity - whole (books),Are there books?
+drawbench_68,"A stack of 3 books. A green book is on the top, sitting on a red book. The red book is in the middle, sitting on a blue book. The blue book is on the bottom.","books, ==3",2,1,other,count,"other - count (books, ==3)",Are there three books?
+drawbench_68,"A stack of 3 books. A green book is on the top, sitting on a red book. The red book is in the middle, sitting on a blue book. The blue book is on the bottom.","book_1, green",3,1,attribute,color,"attribute - color (book_1, green)",Is one book green?
+drawbench_68,"A stack of 3 books. A green book is on the top, sitting on a red book. The red book is in the middle, sitting on a blue book. The blue book is on the bottom.","book_2, red",4,1,attribute,color,"attribute - color (book_2, red)",Is the book red?
+drawbench_68,"A stack of 3 books. A green book is on the top, sitting on a red book. The red book is in the middle, sitting on a blue book. The blue book is on the bottom.","book_3, blue",5,1,attribute,color,"attribute - color (book_3, blue)",Is one book blue?
+drawbench_68,"A stack of 3 books. A green book is on the top, sitting on a red book. The red book is in the middle, sitting on a blue book. The blue book is on the bottom.","book_1, book_2 and book_3, on top of",5,"1,3,4,5",relation,spatial,"relation - spatial (book_1, book_2 and book_3, on top of)",Is the green book on top of the red and blue books?
+drawbench_68,"A stack of 3 books. A green book is on the top, sitting on a red book. The red book is in the middle, sitting on a blue book. The blue book is on the bottom.","book_2, book_1 and book_3, between",6,"1,3,4,5",relation,spatial,"relation - spatial (book_2, book_1 and book_3, between)",Is the red book between the green book and the blue book?
+drawbench_68,"A stack of 3 books. A green book is on the top, sitting on a red book. The red book is in the middle, sitting on a blue book. The blue book is on the bottom.","book_3, book_1 and book_2, under",7,"1,3,4,5",relation,spatial,"relation - spatial (book_3, book_1 and book_2, under)",Is the blue book under the green and red books?
+drawbench_74,"A vehicle composed of two wheels held in a frame one behind the other, propelled by pedals and steered with handlebars attached to the front wheel.",vehicle,1,0,entity,whole,entity - whole (vehicle),Is there a vehicle?
+drawbench_74,"A vehicle composed of two wheels held in a frame one behind the other, propelled by pedals and steered with handlebars attached to the front wheel.",vehicle's wheels,2,1,entity,part,entity - part (vehicle's wheels), 
+drawbench_74,"A vehicle composed of two wheels held in a frame one behind the other, propelled by pedals and steered with handlebars attached to the front wheel.","vehicle's wheels, ==2",3,2,other,count,"other - count (vehicle's wheels, ==2)",Are there two wheels?
+drawbench_74,"A vehicle composed of two wheels held in a frame one behind the other, propelled by pedals and steered with handlebars attached to the front wheel.",frame,4,0,entity,whole,entity - whole (frame),Is there a frame?
+drawbench_74,"A vehicle composed of two wheels held in a frame one behind the other, propelled by pedals and steered with handlebars attached to the front wheel.",pedals,5,0,entity,whole,entity - whole (pedals), 
+drawbench_74,"A vehicle composed of two wheels held in a frame one behind the other, propelled by pedals and steered with handlebars attached to the front wheel.",handbars,6,0,entity,whole,entity - whole (handbars), 
+drawbench_74,"A vehicle composed of two wheels held in a frame one behind the other, propelled by pedals and steered with handlebars attached to the front wheel.","wheel, frame, held in",7,"2,4",relation,spatial,"relation - spatial (wheel, frame, held in)",Are the wheels held in the frame?
+drawbench_74,"A vehicle composed of two wheels held in a frame one behind the other, propelled by pedals and steered with handlebars attached to the front wheel.","vehicle, pedals, propelled by",8,"1,5",action, ,"action -  (vehicle, pedals, propelled by)",Did pedals propel the vehicle?
+drawbench_74,"A vehicle composed of two wheels held in a frame one behind the other, propelled by pedals and steered with handlebars attached to the front wheel.","vehicle, handlebars, steered with",9,"1,6",action, ,"action -  (vehicle, handlebars, steered with)",Did the handlebars steer the vehicle?
+drawbench_74,"A vehicle composed of two wheels held in a frame one behind the other, propelled by pedals and steered with handlebars attached to the front wheel.","handlebars, front wheel, attached to",10,"2,6",relation,spatial,"relation - spatial (handlebars, front wheel, attached to)",Are the handlebars attached to the front wheel?
+drawbench_107,An umbrella on top of a spoon.,umbrella,1,0,entity,whole,entity - whole (umbrella),Is there an umbrella?
+drawbench_107,An umbrella on top of a spoon.,spoon,2,0,entity,whole,entity - whole (spoon),Is there a spoon?
+drawbench_107,An umbrella on top of a spoon.,"umbrella, on top of",3,"1,2",relation,spatial,"relation - spatial (umbrella, on top of)",Is the spoon on top of the umbrella?
+drawbench_123,A zebra to the right of a fire hydrant.,zebra,1,0,entity,whole,entity - whole (zebra),Is there a zebra?
+drawbench_123,A zebra to the right of a fire hydrant.,fire hydrant,2,0,entity,whole,entity - whole (fire hydrant),Is there a fire hydrant?
+drawbench_123,A zebra to the right of a fire hydrant.,"zebra, fire hydrant, to the right",3,"1,2",relation,spatial,"relation - spatial (zebra, fire hydrant, to the right)",Is the zebra to the right of the fire hydrant?
+drawbench_138,Greek statue of a man tripping over a cat.,statue,1,0,global, ,global -  (statue),Is there a statue?
+drawbench_138,Greek statue of a man tripping over a cat.,man,2,0,entity,whole,entity - whole (man), 
+drawbench_138,Greek statue of a man tripping over a cat.,cat,3,0,entity,whole,entity - whole (cat),Is there a cat?
+drawbench_138,Greek statue of a man tripping over a cat.,"man, cat, trip over",6,"2,3",action, ,"action -  (man, cat, trip over)",Is the statue tripping over the cat?
+drawbench_149,Photo of a mega Lego space station inside a kid's bedroom.,photo,1,0,global, ,global -  (photo),Is this a photo?
+drawbench_149,Photo of a mega Lego space station inside a kid's bedroom.,mega Lego space station,2,0,entity,whole,entity - whole (mega Lego space station),Is there a mega Lego space station?
+drawbench_149,Photo of a mega Lego space station inside a kid's bedroom.,bedroom,3,0,entity,whole,entity - whole (bedroom),Is there a bedroom?
+drawbench_149,Photo of a mega Lego space station inside a kid's bedroom.,"bedroom, kid's",4,3,attribute,type,"attribute - type (bedroom, kid's)",Is the bedroom a kid's bedroom?
+drawbench_149,Photo of a mega Lego space station inside a kid's bedroom.,"mega Lego space station, bedroom, inside",5,"2,3",relation,spatial,"relation - spatial (mega Lego space station, bedroom, inside)",Is the mega Lego space station inside the bedroom?
+drawbench_155,"A car playing soccer, digital art.",car,1,0,entity,whole,entity - whole (car),Is there a car?
+drawbench_155,"A car playing soccer, digital art.",digital art,2,0,global, ,global -  (digital art),Is this digital art?
+drawbench_155,"A car playing soccer, digital art.","car, soccer, play",3,1,action, ,"action -  (car, soccer, play)",Is the car playing soccer?
+drawbench_159,A realistic photo of a Pomeranian dressed up like a 1980s professional wrestler with neon green and neon orange face paint and bright green wrestling tights with bright orange boots.,photo,1,0,global, ,global -  (photo),Is this a photo?
+drawbench_159,A realistic photo of a Pomeranian dressed up like a 1980s professional wrestler with neon green and neon orange face paint and bright green wrestling tights with bright orange boots.,Pomeranian,2,0,entity,whole,entity - whole (Pomeranian),Is there a Pomeranian?
+drawbench_159,A realistic photo of a Pomeranian dressed up like a 1980s professional wrestler with neon green and neon orange face paint and bright green wrestling tights with bright orange boots.,realistic,3,0,global, ,global -  (realistic),Is the photo realistic?
+drawbench_159,A realistic photo of a Pomeranian dressed up like a 1980s professional wrestler with neon green and neon orange face paint and bright green wrestling tights with bright orange boots.,Pomeranian's costume,4,2,entity,part,entity - part (Pomeranian's costume),Is the Pomeranian dressed up?
+drawbench_159,A realistic photo of a Pomeranian dressed up like a 1980s professional wrestler with neon green and neon orange face paint and bright green wrestling tights with bright orange boots.,"Pomeranian's costume, 1980s professional wrestler",5,4,attribute,type,"attribute - type (Pomeranian's costume, 1980s professional wrestler)",Is the costume of a 1980s professional wrestler?
+drawbench_159,A realistic photo of a Pomeranian dressed up like a 1980s professional wrestler with neon green and neon orange face paint and bright green wrestling tights with bright orange boots.,Pomeranian's costume's wrestling tights,6,4,entity,part,entity - part (Pomeranian's costume's wrestling tights),Are wrestling tights included in the costume?
+drawbench_159,A realistic photo of a Pomeranian dressed up like a 1980s professional wrestler with neon green and neon orange face paint and bright green wrestling tights with bright orange boots.,Pomeranian's costume's wrestling tights' boots,7,4,entity,part,entity - part (Pomeranian's costume's wrestling tights' boots),Does the costume come with boots?
+drawbench_159,A realistic photo of a Pomeranian dressed up like a 1980s professional wrestler with neon green and neon orange face paint and bright green wrestling tights with bright orange boots.,Pomeranian's facepaint,8,2,entity,part,entity - part (Pomeranian's facepaint),Does the Pomeranian has a facepaint?
+drawbench_159,A realistic photo of a Pomeranian dressed up like a 1980s professional wrestler with neon green and neon orange face paint and bright green wrestling tights with bright orange boots.,"Pomeranian's facepaint, neon green",9,8,attribute,color,"attribute - color (Pomeranian's facepaint, neon green)",Is the facepaint neon green?
+drawbench_159,A realistic photo of a Pomeranian dressed up like a 1980s professional wrestler with neon green and neon orange face paint and bright green wrestling tights with bright orange boots.,"Pomeranian's facepaint, neon orange",10,8,attribute,color,"attribute - color (Pomeranian's facepaint, neon orange)",Is the facepaint neon orange?
+drawbench_159,A realistic photo of a Pomeranian dressed up like a 1980s professional wrestler with neon green and neon orange face paint and bright green wrestling tights with bright orange boots.,"Pomeranian's costume's wrestling tights, bright green",11,6,attribute,color,"attribute - color (Pomeranian's costume's wrestling tights, bright green)",Are the wrestling tights bright green?
+drawbench_159,A realistic photo of a Pomeranian dressed up like a 1980s professional wrestler with neon green and neon orange face paint and bright green wrestling tights with bright orange boots.,"Pomeranian's costume's wrestling tights' boots, bright orange",12,7,attribute,color,"attribute - color (Pomeranian's costume's wrestling tights' boots, bright orange)",Are the boots bright orange?
+partiprompt_76,"A dignified beaver wearing glasses, a vest, and colorful neck tie. He stands next to a tall stack of books in a library.",beaver,1,0,entity,whole,entity - whole (beaver),Is there a beaver?
+partiprompt_76,"A dignified beaver wearing glasses, a vest, and colorful neck tie. He stands next to a tall stack of books in a library.",beaver's glasses,2,1,entity,part,entity - part (beaver's glasses),Are there any glasses?
+partiprompt_76,"A dignified beaver wearing glasses, a vest, and colorful neck tie. He stands next to a tall stack of books in a library.",beaver's vest,3,1,entity,part,entity - part (beaver's vest),Is there a vest?
+partiprompt_76,"A dignified beaver wearing glasses, a vest, and colorful neck tie. He stands next to a tall stack of books in a library.",beaver's neck tie,4,1,entity,part,entity - part (beaver's neck tie),Is there a necktie?
+partiprompt_76,"A dignified beaver wearing glasses, a vest, and colorful neck tie. He stands next to a tall stack of books in a library.",books,5,0,entity,whole,entity - whole (books), 
+partiprompt_76,"A dignified beaver wearing glasses, a vest, and colorful neck tie. He stands next to a tall stack of books in a library.","books, in a stack",6,5,attribute,state,"attribute - state (books, in a stack)",Is there a stack of books?
+partiprompt_76,"A dignified beaver wearing glasses, a vest, and colorful neck tie. He stands next to a tall stack of books in a library.",library,7,0,entity,whole,entity - whole (library),Is there a library?
+partiprompt_76,"A dignified beaver wearing glasses, a vest, and colorful neck tie. He stands next to a tall stack of books in a library.","beaver, dignified",8,1,attribute,state,"attribute - state (beaver, dignified)",Does the beaver look dignified?
+partiprompt_76,"A dignified beaver wearing glasses, a vest, and colorful neck tie. He stands next to a tall stack of books in a library.","neck tie, colorful",9,4,attribute,color,"attribute - color (neck tie, colorful)",Is the neck tie colorful?
+partiprompt_76,"A dignified beaver wearing glasses, a vest, and colorful neck tie. He stands next to a tall stack of books in a library.","stack of books, tall",10,6,attribute,scale,"attribute - scale (stack of books, tall)",Is the stack of books tall?
+partiprompt_76,"A dignified beaver wearing glasses, a vest, and colorful neck tie. He stands next to a tall stack of books in a library.","beaver, books, next to",11,"1,5",relation,spatial,"relation - spatial (beaver, books, next to)",Is the beaver next to the stack of books?
+partiprompt_76,"A dignified beaver wearing glasses, a vest, and colorful neck tie. He stands next to a tall stack of books in a library.","beaver, library, inside",12,"1,7",relation,spatial,"relation - spatial (beaver, library, inside)",Is the beaver inside the library?
+partiprompt_76,"A dignified beaver wearing glasses, a vest, and colorful neck tie. He stands next to a tall stack of books in a library.","book, library, inside",13,"5,7",relation,spatial,"relation - spatial (book, library, inside)",Is the stack of books inside the library?
+partiprompt_86,"A set of 2x2 emoji icons with happy, angry, surprised and sobbing faces. The emoji icons look like pigs. All of the pigs are wearing crowns.",emoji icons,1,0,entity,whole,entity - whole (emoji icons), 
+partiprompt_86,"A set of 2x2 emoji icons with happy, angry, surprised and sobbing faces. The emoji icons look like pigs. All of the pigs are wearing crowns.","emoji icons, ==4",2,1,other,count,"other - count (emoji icons, ==4)",Is there a total of four emoji icons?
+partiprompt_86,"A set of 2x2 emoji icons with happy, angry, surprised and sobbing faces. The emoji icons look like pigs. All of the pigs are wearing crowns.","emoji icons, 2x2 grid",3,1,attribute,state,"attribute - state (emoji icons, 2x2 grid)",Are the emojis in a 2x2 grid?
+partiprompt_86,"A set of 2x2 emoji icons with happy, angry, surprised and sobbing faces. The emoji icons look like pigs. All of the pigs are wearing crowns.","emoji icons, pig",4,1,attribute,type,"attribute - type (emoji icons, pig)",Do emojis look like pigs?
+partiprompt_86,"A set of 2x2 emoji icons with happy, angry, surprised and sobbing faces. The emoji icons look like pigs. All of the pigs are wearing crowns.","emoji_1, happy",5,"1,2",attribute,state,"attribute - state (emoji_1, happy)",Does one emoji look happy?
+partiprompt_86,"A set of 2x2 emoji icons with happy, angry, surprised and sobbing faces. The emoji icons look like pigs. All of the pigs are wearing crowns.","emoji_2, angry",6,"1,2",attribute,state,"attribute - state (emoji_2, angry)",Does one emoji look angry?
+partiprompt_86,"A set of 2x2 emoji icons with happy, angry, surprised and sobbing faces. The emoji icons look like pigs. All of the pigs are wearing crowns.","emoji_3, surprised",7,"1,2",attribute,state,"attribute - state (emoji_3, surprised)",Does one emoji look surprised?
+partiprompt_86,"A set of 2x2 emoji icons with happy, angry, surprised and sobbing faces. The emoji icons look like pigs. All of the pigs are wearing crowns.","emoji_4, sobbing face",8,"1,2",attribute,state,"attribute - state (emoji_4, sobbing face)",Does the emoji have a sobbing face?
+partiprompt_86,"A set of 2x2 emoji icons with happy, angry, surprised and sobbing faces. The emoji icons look like pigs. All of the pigs are wearing crowns.",pig's crown,9,"1,4",entity,part,entity - part (pig's crown),Are all the emoji wearing crowns?
+partiprompt_116,A penguin wearing aviator goggles and flying confidently next to a bemused eagle. ,penguin,1,0,entity,whole,entity - whole (penguin),Is there a penguin?
+partiprompt_116,A penguin wearing aviator goggles and flying confidently next to a bemused eagle. ,penguin's goggles,2,1,entity,part,entity - part (penguin's goggles),Do we have any goggles?
+partiprompt_116,A penguin wearing aviator goggles and flying confidently next to a bemused eagle. ,eagle,3,0,entity,whole,entity - whole (eagle),Is there an eagle?
+partiprompt_116,A penguin wearing aviator goggles and flying confidently next to a bemused eagle. ,"penguin's goggles, aviator",4,2,attribute,type,"attribute - type (penguin's goggles, aviator)",Are the goggles aviator goggles?
+partiprompt_116,A penguin wearing aviator goggles and flying confidently next to a bemused eagle. ,"penguin, flying",5,1,attribute,state,"attribute - state (penguin, flying)",Is the penguin flying?
+partiprompt_116,A penguin wearing aviator goggles and flying confidently next to a bemused eagle. ,"penguin, confident",6,1,attribute,state,"attribute - state (penguin, confident)",Does the penguin look confident?
+partiprompt_116,A penguin wearing aviator goggles and flying confidently next to a bemused eagle. ,"eagle, bemused",7,3,attribute,state,"attribute - state (eagle, bemused)",Is the eagle bemused?
+partiprompt_116,A penguin wearing aviator goggles and flying confidently next to a bemused eagle. ,"penguin, eagle, next to",8,"1,3",relation,spatial,"relation - spatial (penguin, eagle, next to)",Is the penguin next to the eagle?
+partiprompt_153,a basketball to the left of two soccer balls on a gravel driveway,basketball,1,0,entity,whole,entity - whole (basketball),Is there a basketball?
+partiprompt_153,a basketball to the left of two soccer balls on a gravel driveway,soccer balls,2,0,entity,whole,entity - whole (soccer balls), 
+partiprompt_153,a basketball to the left of two soccer balls on a gravel driveway,"soccer balls, ==2",3,2,other,count,"other - count (soccer balls, ==2)",Are there two soccer balls?
+partiprompt_153,a basketball to the left of two soccer balls on a gravel driveway,driveway,4,0,entity,whole,entity - whole (driveway),Is there a driveway?
+partiprompt_153,a basketball to the left of two soccer balls on a gravel driveway,"driveway, gravel",5,4,attribute,type,"attribute - type (driveway, gravel)",Is the driveway a gravel driveway?
+partiprompt_153,a basketball to the left of two soccer balls on a gravel driveway,"basketball, soccer balls, to the left",6,"1,2",relation,spatial,"relation - spatial (basketball, soccer balls, to the left)",Is the basketball to the left of the soccer balls?
+partiprompt_153,a basketball to the left of two soccer balls on a gravel driveway,"basketball, driveway, on",7,"1,4",relation,spatial,"relation - spatial (basketball, driveway, on)",Is the basketball on the driveway?
+partiprompt_153,a basketball to the left of two soccer balls on a gravel driveway,"soccer balls, driveway, on",8,"2,4",relation,spatial,"relation - spatial (soccer balls, driveway, on)",Are the soccer balls on the driveway?
+partiprompt_194,A punk rock squirrel in a studded leather jacket shouting into a microphone while standing on a lily pad,squirrel,1,0,entity,whole,entity - whole (squirrel),Is there a squirrel?
+partiprompt_194,A punk rock squirrel in a studded leather jacket shouting into a microphone while standing on a lily pad,squirrel's jacket,2,1,entity,part,entity - part (squirrel's jacket),Is there a jacket?
+partiprompt_194,A punk rock squirrel in a studded leather jacket shouting into a microphone while standing on a lily pad,microphone,3,0,entity,whole,entity - whole (microphone),Is there a microphone?
+partiprompt_194,A punk rock squirrel in a studded leather jacket shouting into a microphone while standing on a lily pad,lily pad,4,0,entity,whole,entity - whole (lily pad),Is there a lily pad?
+partiprompt_194,A punk rock squirrel in a studded leather jacket shouting into a microphone while standing on a lily pad,"squirrel, punk rock",5,1,attribute,type,"attribute - type (squirrel, punk rock)",Does the squirrel look punk rock?
+partiprompt_194,A punk rock squirrel in a studded leather jacket shouting into a microphone while standing on a lily pad,"squirrel's jacket, studded leather",6,2,attribute,type,"attribute - type (squirrel's jacket, studded leather)",Is the jacket a studded leather jacket?
+partiprompt_194,A punk rock squirrel in a studded leather jacket shouting into a microphone while standing on a lily pad,"squirrel, microphone, shout into",7,"1,3",action, ,"action -  (squirrel, microphone, shout into)",Is the squirrel shouting into the microphone?
+partiprompt_194,A punk rock squirrel in a studded leather jacket shouting into a microphone while standing on a lily pad,"squirrel, stand",8,1,attribute,state,"attribute - state (squirrel, stand)", 
+partiprompt_194,A punk rock squirrel in a studded leather jacket shouting into a microphone while standing on a lily pad,"squirrel, lily pad, on",9,"1,4",relation,spatial,"relation - spatial (squirrel, lily pad, on)",Is the squirrel standing on the lily pad?
+partiprompt_202,A map of the United States made out sushi. It is on a table next to a glass of red wine.,map,1,0,entity,whole,entity - whole (map),Is this a map?
+partiprompt_202,A map of the United States made out sushi. It is on a table next to a glass of red wine.,the United States,2,0,entity,whole,entity - whole (the United States), 
+partiprompt_202,A map of the United States made out sushi. It is on a table next to a glass of red wine.,sushi,3,0,entity,whole,entity - whole (sushi), 
+partiprompt_202,A map of the United States made out sushi. It is on a table next to a glass of red wine.,table,4,0,entity,whole,entity - whole (table),Is there a table?
+partiprompt_202,A map of the United States made out sushi. It is on a table next to a glass of red wine.,glass,5,0,entity,whole,entity - whole (glass), 
+partiprompt_202,A map of the United States made out sushi. It is on a table next to a glass of red wine.,wine,6,0,entity,whole,entity - whole (wine), 
+partiprompt_202,A map of the United States made out sushi. It is on a table next to a glass of red wine.,"wine, red",7,6,attribute,type,"attribute - type (wine, red)", 
+partiprompt_202,A map of the United States made out sushi. It is on a table next to a glass of red wine.,"wine, glass, in",8,"5,6",relation,spatial,"relation - spatial (wine, glass, in)",Is there a glass of red wine?
+partiprompt_202,A map of the United States made out sushi. It is on a table next to a glass of red wine.,"map, the United States",9,"1,2",attribute,type,"attribute - type (map, the United States)",Does the map show the United States?
+partiprompt_202,A map of the United States made out sushi. It is on a table next to a glass of red wine.,"map, sushi",10,"1,3",attribute,material,"attribute - material (map, sushi)",Is the map made of sushi?
+partiprompt_202,A map of the United States made out sushi. It is on a table next to a glass of red wine.,"map, table, on",11,"1,4",relation,spatial,"relation - spatial (map, table, on)",Is the map on the table?
+partiprompt_202,A map of the United States made out sushi. It is on a table next to a glass of red wine.,"map, glass, next to",12,"1,5",relation,spatial,"relation - spatial (map, glass, next to)",Is the map next to the glass of red wine?
+partiprompt_202,A map of the United States made out sushi. It is on a table next to a glass of red wine.,"map, wine, next to",13,"1,6",relation,spatial,"relation - spatial (map, wine, next to)", 
+partiprompt_242,a dolphin in an astronaut suit on saturn,dolphin,1,0,entity,whole,entity - whole (dolphin),Is there a dolphin?
+partiprompt_242,a dolphin in an astronaut suit on saturn,astronaut suit,2,1,entity,part,entity - part (astronaut suit),Is there an astronaut suit?
+partiprompt_242,a dolphin in an astronaut suit on saturn,saturn,3,0,entity,whole,entity - whole (saturn),Is there saturn?
+partiprompt_242,a dolphin in an astronaut suit on saturn,"dolphin, saturn, on",4,"1,3",relation,spatial,"relation - spatial (dolphin, saturn, on)",Is the dolphin on saturn?
+partiprompt_254,a white country home with a wrap-around porch,home,1,0,entity,whole,entity - whole (home),Is there a home?
+partiprompt_254,a white country home with a wrap-around porch,porch,2,0,entity,whole,entity - whole (porch),Is there a porch?
+partiprompt_254,a white country home with a wrap-around porch,"home, white",3,1,attribute,color,"attribute - color (home, white)",Is the home white?
+partiprompt_254,a white country home with a wrap-around porch,"home, country",4,1,attribute,type,"attribute - type (home, country)",Is the home a country home?
+partiprompt_254,a white country home with a wrap-around porch,"porch, wrap-around",5,2,attribute,state,"attribute - state (porch, wrap-around)",Is the porch wraparound?
+partiprompt_254,a white country home with a wrap-around porch,"house, porch, next to",6,"1,2",relation,spatial,"relation - spatial (house, porch, next to)",Does the porch belong to the home?
+partiprompt_260,a white cat with black ears and markings,cat,1,0,entity,whole,entity - whole (cat),Is there a cat?
+partiprompt_260,a white cat with black ears and markings,cat's ears,2,1,entity,part,entity - part (cat's ears),Are there some ears?
+partiprompt_260,a white cat with black ears and markings,"cat, white",3,1,attribute,color,"attribute - color (cat, white)",Is the cat white?
+partiprompt_260,a white cat with black ears and markings,"cat's ears, black",4,2,attribute,color,"attribute - color (cat's ears, black)",Are the ears black?
+partiprompt_260,a white cat with black ears and markings,cat's markings,6,1,entity,part,entity - part (cat's markings),Does the ear have any markings?
+partiprompt_274,the skyline of New York City,New York City,1,0,global, ,global -  (New York City),Are you in New York City?
+partiprompt_274,the skyline of New York City,skyline,2,0,global, ,global -  (skyline),Is there a skyline?
+partiprompt_325,view of a clock tower on a cloudy day,clock tower,1,0,entity,whole,entity - whole (clock tower),Is there a clock tower?
+partiprompt_325,view of a clock tower on a cloudy day,cloudy,2,0,global, ,global -  (cloudy), 
+partiprompt_325,view of a clock tower on a cloudy day,daylight,3,0,global, ,global -  (daylight),Is it a cloudy day?
+partiprompt_356,a dolphin jumping over a rowboat,dolphin,1,0,entity,whole,entity - whole (dolphin),Is there a dolphin?
+partiprompt_356,a dolphin jumping over a rowboat,rowboat,2,0,entity,whole,entity - whole (rowboat),Do you see a rowboat?
+partiprompt_356,a dolphin jumping over a rowboat,"dolphin, rowboat, jump over",3,"1,2",action, ,"action -  (dolphin, rowboat, jump over)",Is the dolphin jumping over the rowboat?
+partiprompt_358,a drop-top sports car coming around a bend in the road,car,1,0,entity,whole,entity - whole (car),Is there a car?
+partiprompt_358,a drop-top sports car coming around a bend in the road,road,2,0,entity,whole,entity - whole (road),Is there a road?
+partiprompt_358,a drop-top sports car coming around a bend in the road,"car, sports",3,1,attribute,type,"attribute - type (car, sports)",Is the car a sports car?
+partiprompt_358,a drop-top sports car coming around a bend in the road,"car, drop-top",4,1,attribute,type,"attribute - type (car, drop-top)",Is the car a drop-top?
+partiprompt_358,a drop-top sports car coming around a bend in the road,"car, bend in the road, around",5,"1,2",relation,spatial,"relation - spatial (car, bend in the road, around)",Is the car around the bend in the road?
+partiprompt_366,a hot air balloon landing in a corn field,balloon,1,0,entity,whole,entity - whole (balloon),Is there a balloon?
+partiprompt_366,a hot air balloon landing in a corn field,field,2,0,entity,whole,entity - whole (field),Is there a field?
+partiprompt_366,a hot air balloon landing in a corn field,"balloon, hot air",3,1,attribute,type,"attribute - type (balloon, hot air)",Is the balloon a hot air balloon?
+partiprompt_366,a hot air balloon landing in a corn field,"field, corn",4,2,attribute,type,"attribute - type (field, corn)",Do you think the field is a corn field?
+partiprompt_366,a hot air balloon landing in a corn field,"balloon, field, land in",5,"1,2",relation,spatial,"relation - spatial (balloon, field, land in)",Is the balloon landing in the field?
+partiprompt_436,a flock of geese in front of The Alamo,geese,1,0,entity,whole,entity - whole (geese),Are there geese here?
+partiprompt_436,a flock of geese in front of The Alamo,The Alamo,2,0,entity,whole,entity - whole (The Alamo),Is this The Alamo?
+partiprompt_436,a flock of geese in front of The Alamo,"goose, the Alamo, in front of",3,"1,2",relation,spatial,"relation - spatial (goose, the Alamo, in front of)",Are the geese in front of The Alamo?
+partiprompt_499,a library filled with kids reading books,library,1,0,entity,whole,entity - whole (library),Is there a library?
+partiprompt_499,a library filled with kids reading books,kids,2,0,entity,whole,entity - whole (kids), 
+partiprompt_499,a library filled with kids reading books,books,3,0,entity,whole,entity - whole (books), 
+partiprompt_499,a library filled with kids reading books,"library, kids, filled with",4,"1,2",relation,spatial,"relation - spatial (library, kids, filled with)",Are there a lot of kids in the library?
+partiprompt_499,a library filled with kids reading books,"kids, books, read",5,"2,3",action, ,"action -  (kids, books, read)",Are the kids reading the books?
+partiprompt_504,A tornado made of tigers crashing into a skyscraper. painting in the style of Hokusai.,tornado,1,0,entity,whole,entity - whole (tornado),Is there a tornado?
+partiprompt_504,A tornado made of tigers crashing into a skyscraper. painting in the style of Hokusai.,tigers,2,0,entity,whole,entity - whole (tigers),Are there any tigers?
+partiprompt_504,A tornado made of tigers crashing into a skyscraper. painting in the style of Hokusai.,skycraper,3,0,entity,whole,entity - whole (skycraper),Is there a skyscraper?
+partiprompt_504,A tornado made of tigers crashing into a skyscraper. painting in the style of Hokusai.,painting,4,0,global, ,global -  (painting),Is this a painting?
+partiprompt_504,A tornado made of tigers crashing into a skyscraper. painting in the style of Hokusai.,"tornado, tigers",5,"1,2",attribute,material,"attribute - material (tornado, tigers)",Is the tornado made of tigers?
+partiprompt_504,A tornado made of tigers crashing into a skyscraper. painting in the style of Hokusai.,Hokusai style,6,0,global, ,global -  (Hokusai style),Is the painting of the Hokusai style?
+partiprompt_504,A tornado made of tigers crashing into a skyscraper. painting in the style of Hokusai.,"tornado, skyscraper, crash into",7,"1,3",action, ,"action -  (tornado, skyscraper, crash into)",Is the tornado crashing into the skyscraper?
+partiprompt_532,A high resolution photo of a chicken working out in a gym.,photo,1,0,global, ,global -  (photo),Is this a photo?
+partiprompt_532,A high resolution photo of a chicken working out in a gym.,chicken,2,0,entity,whole,entity - whole (chicken),Is there a chicken?
+partiprompt_532,A high resolution photo of a chicken working out in a gym.,gym,3,0,entity,whole,entity - whole (gym),Is there a gym here?
+partiprompt_532,A high resolution photo of a chicken working out in a gym.,high resolution,4,0,global, ,global -  (high resolution),Is the photo high resolution?
+partiprompt_532,A high resolution photo of a chicken working out in a gym.,"chicken, work out",5,2,action, ,"action -  (chicken, work out)",Is the chicken working out in the gym?
+partiprompt_532,A high resolution photo of a chicken working out in a gym.,"chicken, gym, in",6,"2,3",relation,spatial,"relation - spatial (chicken, gym, in)", 
+partiprompt_555,an espresso machine that makes coffee from human souls,espresso machine,1,0,entity,whole,entity - whole (espresso machine),Do we have an espresso machine?
+partiprompt_555,an espresso machine that makes coffee from human souls,coffee,2,0,entity,whole,entity - whole (coffee),Do we have coffee?
+partiprompt_555,an espresso machine that makes coffee from human souls,human souls,3,0,entity,whole,entity - whole (human souls),Do human beings have souls?
+partiprompt_555,an espresso machine that makes coffee from human souls,"espresso machine, coffee, make",4,"1,2",action, ,"action -  (espresso machine, coffee, make)",Is the espresso machine making coffee?
+partiprompt_555,an espresso machine that makes coffee from human souls,"coffee, human souls",5,"2,3",attribute,material,"attribute - material (coffee, human souls)",Is the expersso made of human souls?
+partiprompt_598,a zebra with alternating blue and red stripes,zebra,1,0,entity,whole,entity - whole (zebra),Is there a zebra?
+partiprompt_598,a zebra with alternating blue and red stripes,stripes,2,1,entity,part,entity - part (stripes), 
+partiprompt_598,a zebra with alternating blue and red stripes,"stripes, blue",3,2,attribute,color,"attribute - color (stripes, blue)",Does the zebra have blue stripes?
+partiprompt_598,a zebra with alternating blue and red stripes,"stripes, red",4,2,attribute,color,"attribute - color (stripes, red)",Does the zebra have red stripes?
+partiprompt_598,a zebra with alternating blue and red stripes,"blue stripes, red stripes, alternate between",5,"3,4",relation,spatial,"relation - spatial (blue stripes, red stripes, alternate between)",Are the blue and red stripes alternatiing?
+partiprompt_607,square red apples on a tree with circular green leaves,tree,1,0,entity,whole,entity - whole (tree),Is there a tree?
+partiprompt_607,square red apples on a tree with circular green leaves,apples,2,0,entity,whole,entity - whole (apples), 
+partiprompt_607,square red apples on a tree with circular green leaves,leaves,3,0,entity,whole,entity - whole (leaves), 
+partiprompt_607,square red apples on a tree with circular green leaves,"apples, red",4,2,attribute,color,"attribute - color (apples, red)",Are the apples red?
+partiprompt_607,square red apples on a tree with circular green leaves,"apples, square",5,2,attribute,shape,"attribute - shape (apples, square)",Are the apples square?
+partiprompt_607,square red apples on a tree with circular green leaves,"leaves, green",6,3,attribute,color,"attribute - color (leaves, green)",Are the leaves green?
+partiprompt_607,square red apples on a tree with circular green leaves,"leaves, circular",7,3,attribute,shape,"attribute - shape (leaves, circular)",Are the leaves circular?
+partiprompt_607,square red apples on a tree with circular green leaves,"apples, tree, on",8,"1,2",relation,spatial,"relation - spatial (apples, tree, on)",Are the apples on the tree?
+partiprompt_607,square red apples on a tree with circular green leaves,"tree, leaves, with",9,"1,3",relation,spatial,"relation - spatial (tree, leaves, with)",Are the leaves on the tree?
+partiprompt_611,a panda bear with aviator glasses on its head,panda bear,1,0,entity,whole,entity - whole (panda bear),Is there a panda bear?
+partiprompt_611,a panda bear with aviator glasses on its head,glasses,2,0,entity,whole,entity - whole (glasses),Are there any glasses?
+partiprompt_611,a panda bear with aviator glasses on its head,"glasses, aviator",3,2,attribute,type,"attribute - type (glasses, aviator)",Are the glasses aviators?
+partiprompt_611,a panda bear with aviator glasses on its head,panda bear's head,4,1,entity,part,entity - part (panda bear's head), 
+partiprompt_611,a panda bear with aviator glasses on its head,"glasses, panda bear's head, on",5,"1,2",relation,spatial,"relation - spatial (glasses, panda bear's head, on)",Is the panda bear wearing the aviator glasses on its head?
+partiprompt_632,a piano tumbling down a hill,piano,1,0,entity,whole,entity - whole (piano),Is there a piano?
+partiprompt_632,a piano tumbling down a hill,hill,2,0,entity,whole,entity - whole (hill),Is there a hill?
+partiprompt_632,a piano tumbling down a hill,"piano, tumble down",3,1,action, ,"action -  (piano, tumble down)", 
+partiprompt_632,a piano tumbling down a hill,"piano, hill, on",4,"1,2",relation,spatial,"relation - spatial (piano, hill, on)",Is the piano tumbling down the hill?
+partiprompt_726,"Aerial view of downtown Manhattan, but with Millennium Wheel next to the Statue of Liberty. The Great Pyramid is on a sandy island near the buildings.",downtown Manhattan,1,0,entity, ,entity -  (downtown Manhattan),Is downtown Manhattan there?
+partiprompt_726,"Aerial view of downtown Manhattan, but with Millennium Wheel next to the Statue of Liberty. The Great Pyramid is on a sandy island near the buildings.",Millennium Wheel,2,0,entity, ,entity -  (Millennium Wheel),Is Millennium Wheel there?
+partiprompt_726,"Aerial view of downtown Manhattan, but with Millennium Wheel next to the Statue of Liberty. The Great Pyramid is on a sandy island near the buildings.",the Statue of the Liberty,3,0,entity, ,entity -  (the Statue of the Liberty),Is the Statue of Liberty there?
+partiprompt_726,"Aerial view of downtown Manhattan, but with Millennium Wheel next to the Statue of Liberty. The Great Pyramid is on a sandy island near the buildings.",the Great Pyramid,4,0,entity, ,entity -  (the Great Pyramid),Is the Great Pyramid there?
+partiprompt_726,"Aerial view of downtown Manhattan, but with Millennium Wheel next to the Statue of Liberty. The Great Pyramid is on a sandy island near the buildings.",island,5,0,entity, ,entity -  (island),Is there an island?
+partiprompt_726,"Aerial view of downtown Manhattan, but with Millennium Wheel next to the Statue of Liberty. The Great Pyramid is on a sandy island near the buildings.",buildings,6,0,entity, ,entity -  (buildings),Are there buildings?
+partiprompt_726,"Aerial view of downtown Manhattan, but with Millennium Wheel next to the Statue of Liberty. The Great Pyramid is on a sandy island near the buildings.",aerial view,7,0,global, ,global -  (aerial view),Is this an aerial view?
+partiprompt_726,"Aerial view of downtown Manhattan, but with Millennium Wheel next to the Statue of Liberty. The Great Pyramid is on a sandy island near the buildings.","island, sandy",8,5,attribute,texture,"attribute - texture (island, sandy)",Is the island sandy?
+partiprompt_726,"Aerial view of downtown Manhattan, but with Millennium Wheel next to the Statue of Liberty. The Great Pyramid is on a sandy island near the buildings.","Millennium Wheel, the Statue of Liberty, next to",9,"2,3",relation,spatial,"relation - spatial (Millennium Wheel, the Statue of Liberty, next to)",Is the Millennium Wheel next to the Statue of Liberty?
+partiprompt_726,"Aerial view of downtown Manhattan, but with Millennium Wheel next to the Statue of Liberty. The Great Pyramid is on a sandy island near the buildings.","the Great Pyramid, island, on",10,"4,5",relation,spatial,"relation - spatial (the Great Pyramid, island, on)",Is the Great Pyramid on the sandy island?
+partiprompt_726,"Aerial view of downtown Manhattan, but with Millennium Wheel next to the Statue of Liberty. The Great Pyramid is on a sandy island near the buildings.","the Great Pyramid, buildings, near",11,"4,6",relation,spatial,"relation - spatial (the Great Pyramid, buildings, near)",Is the Great Pyramid near the buildings?
+partiprompt_753,an aerial photo of a baseball stadium,baseball stadium,1,0,entity,whole,entity - whole (baseball stadium),Is there a baseball stadium?
+partiprompt_753,an aerial photo of a baseball stadium,photo,2,0,global, ,global -  (photo),Is this a photo?
+partiprompt_754,an aerial photo of a sandy island in the ocean,island,1,0,entity,whole,entity - whole (island),Is there an island?
+partiprompt_754,an aerial photo of a sandy island in the ocean,ocean,2,0,entity,whole,entity - whole (ocean),Is there an ocean?
+partiprompt_754,an aerial photo of a sandy island in the ocean,"island, sandy",3,1,attribute,texture,"attribute - texture (island, sandy)",Is the island sandy?
+partiprompt_754,an aerial photo of a sandy island in the ocean,aerial,4,0,global, ,global -  (aerial),Is this an aerial photo?
+partiprompt_754,an aerial photo of a sandy island in the ocean,"island, ocean, in",5,"1,2",relation,spatial,"relation - spatial (island, ocean, in)",Is the island in the ocean?
+partiprompt_830,an owl family,owls,1,0,entity,whole,entity - whole (owls),Are there owls?
+partiprompt_830,an owl family,"owls, family",2,1,attribute,state,"attribute - state (owls, family)",Are the owls a family?
+partiprompt_869,two red flowers and three white flowers,flowers,1,0,entity,whole,entity - whole (flowers), 
+partiprompt_869,two red flowers and three white flowers,"flowers, ==5",2,1,other,count,"other - count (flowers, ==5)",Are there five flowers?
+partiprompt_869,two red flowers and three white flowers,two flowers,3,1,entity,part,entity - part (two flowers), 
+partiprompt_869,two red flowers and three white flowers,"two flowers, red",4,1,attribute,color,"attribute - color (two flowers, red)",Are two of the flowers red?
+partiprompt_869,two red flowers and three white flowers,three flowers,5,1,entity,part,entity - part (three flowers), 
+partiprompt_869,two red flowers and three white flowers,"three flowers, white",6,1,attribute,color,"attribute - color (three flowers, white)",Are there three white flowers?
+partiprompt_893,a four-piece band on a stage in front of a small crowd,band,1,0,entity,whole,entity - whole (band),Is there a band?
+partiprompt_893,a four-piece band on a stage in front of a small crowd,stage,2,0,entity,whole,entity - whole (stage),Is there a stage?
+partiprompt_893,a four-piece band on a stage in front of a small crowd,crowd,3,0,entity,whole,entity - whole (crowd),Is there a crowd?
+partiprompt_893,a four-piece band on a stage in front of a small crowd,"band members, ==4",4,1,other,count,"other - count (band members, ==4)",Is the band a fourpiece band?
+partiprompt_893,a four-piece band on a stage in front of a small crowd,"crowd, small",5,3,attribute,shape,"attribute - shape (crowd, small)",Is the crowd small?
+partiprompt_893,a four-piece band on a stage in front of a small crowd,"band, stage, on",6,"1,2",relation,spatial,"relation - spatial (band, stage, on)",Are the band on the stage?
+partiprompt_893,a four-piece band on a stage in front of a small crowd,"band, crowd, in front of",7,"1,3",relation,spatial,"relation - spatial (band, crowd, in front of)",Is the band in front of the crowd?
+partiprompt_893,a four-piece band on a stage in front of a small crowd,"stage, crowd, in front of",8,"2,3",relation,spatial,"relation - spatial (stage, crowd, in front of)",Is the stage in front of the crowd?
+partiprompt_931,a cat jumping in the air to get onto a table,cat,1,0,entity,whole,entity - whole (cat),Is there a cat?
+partiprompt_931,a cat jumping in the air to get onto a table,table,2,0,entity,whole,entity - whole (table),Is there a table?
+partiprompt_931,a cat jumping in the air to get onto a table,"cat, table, jump onto",3,"1,2",action, ,"action -  (cat, table, jump onto)",Is the cat jumping towards the table?
+partiprompt_1004,a wood treehouse in an oak tree,treehouse,1,0,entity,whole,entity - whole (treehouse),Is there a treehouse?
+partiprompt_1004,a wood treehouse in an oak tree,tree,2,0,entity,whole,entity - whole (tree),Is there a tree?
+partiprompt_1004,a wood treehouse in an oak tree,"treehouse, wood",3,1,attribute,material,"attribute - material (treehouse, wood)",Is the treehouse made of wood?
+partiprompt_1004,a wood treehouse in an oak tree,"tree, oak",4,2,attribute,type,"attribute - type (tree, oak)",Does the tree belong to the oak tree species?
+partiprompt_1004,a wood treehouse in an oak tree,"treehouse, tree, in",5,"1,2",relation,spatial,"relation - spatial (treehouse, tree, in)",Is the treehouse in the tree?
+partiprompt_1012,a mountain with a cloud hanging over it,mountain,1,0,entity,whole,entity - whole (mountain),Is there a mountain?
+partiprompt_1012,a mountain with a cloud hanging over it,cloud,2,0,entity,whole,entity - whole (cloud),Is there a cloud?
+partiprompt_1012,a mountain with a cloud hanging over it,"cloud, mountain, hang over",3,"1,2",relation,spatial,"relation - spatial (cloud, mountain, hang over)",Is the cloud hanging over the mountain?
+partiprompt_1028,an ostrich standing on a couch,ostrich,1,0,entity,whole,entity - whole (ostrich),Is there an ostrich?
+partiprompt_1028,an ostrich standing on a couch,couch,2,0,entity,whole,entity - whole (couch),Is there a couch?
+partiprompt_1028,an ostrich standing on a couch,"ostrich, stand",3,1,attribute,state,"attribute - state (ostrich, stand)",Is the ostrich standing?
+partiprompt_1028,an ostrich standing on a couch,"ostrich, couch, on",4,"1,2",relation,spatial,"relation - spatial (ostrich, couch, on)",Is the ostrich on the couch?
+partiprompt_1053,a pair of glasses under a computer monitor,a pair of glasses,1,0,entity,whole,entity - whole (a pair of glasses),Is there a pair of glasses?
+partiprompt_1053,a pair of glasses under a computer monitor,computer monitor,2,0,entity,whole,entity - whole (computer monitor),Is there a computer monitor?
+partiprompt_1053,a pair of glasses under a computer monitor,"a pair of glasses, monitor, under",3,"1,2",relation,spatial,"relation - spatial (a pair of glasses, monitor, under)",Are the glasses under the monitor?
+partiprompt_1070,Times Square during the day,Times Square,1,0,entity,whole,entity - whole (Times Square),Are you at Times Square?
+partiprompt_1070,Times Square during the day,day,2,0,global, ,global -  (day),Is this during the day?
+partiprompt_1083,a rusty fire hydrant surrounded by dirt,fire hydrant,1,0,entity,whole,entity - whole (fire hydrant),Is there a fire hydrant?
+partiprompt_1083,a rusty fire hydrant surrounded by dirt,dirt,2,0,entity,whole,entity - whole (dirt),Is there dirt?
+partiprompt_1083,a rusty fire hydrant surrounded by dirt,"fire hydrant, rusty",3,1,attribute,state,"attribute - state (fire hydrant, rusty)",Is the fire hydrant rusty?
+partiprompt_1083,a rusty fire hydrant surrounded by dirt,"fire hydrant, dirt, surrounded",4,"1,2",relation,spatial,"relation - spatial (fire hydrant, dirt, surrounded)",Is there dirt around the fire hydrant?
+partiprompt_1085,a snake curled around a wooden post,snake,1,0,entity,whole,entity - whole (snake),Is there a snake?
+partiprompt_1085,a snake curled around a wooden post,post,2,0,entity,whole,entity - whole (post),Is there a post?
+partiprompt_1085,a snake curled around a wooden post,"post, wood",3,2,attribute,material,"attribute - material (post, wood)",Is the post made of wood?
+partiprompt_1085,a snake curled around a wooden post,"snake, post, curled around",4,"1,2",relation,spatial,"relation - spatial (snake, post, curled around)",Is the snake curled around the post?
+partiprompt_1086,a grand piano with a white bench,piano,1,0,entity,whole,entity - whole (piano),Is there a piano?
+partiprompt_1086,a grand piano with a white bench,bench,2,0,entity,whole,entity - whole (bench),Is there a bench?
+partiprompt_1086,a grand piano with a white bench,"piano, grand",3,1,attribute,type,"attribute - type (piano, grand)",Is the piano a grand piano?
+partiprompt_1086,a grand piano with a white bench,"bench, white",4,2,attribute,color,"attribute - color (bench, white)",Is the bench white?
+partiprompt_1086,a grand piano with a white bench,"piano, bench, next to",5,"1,2",relation,spatial,"relation - spatial (piano, bench, next to)",Is the piano next to the bench?
+partiprompt_1108,a sad man with green hair,man,1,0,entity,whole,entity - whole (man),Is there a man?
+partiprompt_1108,a sad man with green hair,man's hair,2,1,entity,part,entity - part (man's hair),Is there hair?
+partiprompt_1108,a sad man with green hair,"man, sad",3,1,attribute,state,"attribute - state (man, sad)",Is the man sad?
+partiprompt_1108,a sad man with green hair,"man's hair, green",4,2,attribute,color,"attribute - color (man's hair, green)",Is the hair green?
+partiprompt_1115,a pumpkin on a man's head,pumpkin,1,0,entity,whole,entity - whole (pumpkin),Is there a pumpkin?
+partiprompt_1115,a pumpkin on a man's head,man,2,0,entity,whole,entity - whole (man), 
+partiprompt_1115,a pumpkin on a man's head,man's head,3,2,entity,part,entity - part (man's head),Is there a head?
+partiprompt_1115,a pumpkin on a man's head,"pumpkin, man's head, on",4,"1,2",relation,spatial,"relation - spatial (pumpkin, man's head, on)",Is the pumpkin on the head?
+partiprompt_1136,A section of the Great Wall in the mountains. detailed charcoal sketch.,the Great Wall,1,0,entity,whole,entity - whole (the Great Wall),Is there the Great Wall?
+partiprompt_1136,A section of the Great Wall in the mountains. detailed charcoal sketch.,mountains,2,0,entity,whole,entity - whole (mountains), 
+partiprompt_1136,A section of the Great Wall in the mountains. detailed charcoal sketch.,sketch,3,0,global, ,global -  (sketch),Is this a section of the Great Wall?
+partiprompt_1136,A section of the Great Wall in the mountains. detailed charcoal sketch.,charcoal,4,0,global, ,global -  (charcoal), 
+partiprompt_1136,A section of the Great Wall in the mountains. detailed charcoal sketch.,detailed,5,0,global, ,global -  (detailed),Is the sketch a charcoal sketch?
+partiprompt_1136,A section of the Great Wall in the mountains. detailed charcoal sketch.,"the Great Wall, mountain, in",6,"1,2",relation,spatial,"relation - spatial (the Great Wall, mountain, in)",Where is the Great Wall section located?
+partiprompt_1138,A Mesoamerican pyramid surrounded by jungle. detailed charcoal sketch.,pyramid,1,0,entity,whole,entity - whole (pyramid),Is there a pyramid?
+partiprompt_1138,A Mesoamerican pyramid surrounded by jungle. detailed charcoal sketch.,jungle,2,0,entity,whole,entity - whole (jungle),Is there a jungle?
+partiprompt_1138,A Mesoamerican pyramid surrounded by jungle. detailed charcoal sketch.,sketch,3,0,global, ,global -  (sketch),Is this image a sketch?
+partiprompt_1138,A Mesoamerican pyramid surrounded by jungle. detailed charcoal sketch.,detailed,4,0,global, ,global -  (detailed),Is this image detailed?
+partiprompt_1138,A Mesoamerican pyramid surrounded by jungle. detailed charcoal sketch.,charcoal,5,0,global, ,global -  (charcoal),Is this image drawn with charcoal?
+partiprompt_1138,A Mesoamerican pyramid surrounded by jungle. detailed charcoal sketch.,"pyramid, Mesoamerican",6,1,attribute,type,"attribute - type (pyramid, Mesoamerican)",Is the pyramid Mesoamerican?
+partiprompt_1138,A Mesoamerican pyramid surrounded by jungle. detailed charcoal sketch.,"pyramid, jungle, surrounded",7,"1,2",relation,spatial,"relation - spatial (pyramid, jungle, surrounded)",Is the pyramid surrounded by the jungle?
+partiprompt_1164,Portrait of a gecko wearing a train conductor’s hat and holding a flag that has a yin-yang symbol on it. Comic.,portrait,1,0,global, ,global -  (portrait),Is this a portrait?
+partiprompt_1164,Portrait of a gecko wearing a train conductor’s hat and holding a flag that has a yin-yang symbol on it. Comic.,gecko,2,0,entity,whole,entity - whole (gecko),Is there a gecko?
+partiprompt_1164,Portrait of a gecko wearing a train conductor’s hat and holding a flag that has a yin-yang symbol on it. Comic.,hat,3,2,entity,part,entity - part (hat),Is there a hat?
+partiprompt_1164,Portrait of a gecko wearing a train conductor’s hat and holding a flag that has a yin-yang symbol on it. Comic.,flag,4,0,entity,whole,entity - whole (flag),Is there a flag?
+partiprompt_1164,Portrait of a gecko wearing a train conductor’s hat and holding a flag that has a yin-yang symbol on it. Comic.,yin-yang symbol,5,0,entity,whole,entity - whole (yin-yang symbol),Is there a yin-yang symbol?
+partiprompt_1164,Portrait of a gecko wearing a train conductor’s hat and holding a flag that has a yin-yang symbol on it. Comic.,comic,6,0,global, ,global -  (comic),Is the portrait in comic style?
+partiprompt_1164,Portrait of a gecko wearing a train conductor’s hat and holding a flag that has a yin-yang symbol on it. Comic.,"hat, train conductor's",7,3,attribute,type,"attribute - type (hat, train conductor's)",Is the hat a train conductor's hat?
+partiprompt_1164,Portrait of a gecko wearing a train conductor’s hat and holding a flag that has a yin-yang symbol on it. Comic.,"gecko, flag, hold",8,"2,4",relation,spatial,"relation - spatial (gecko, flag, hold)",Is the gecko holding the flag?
+partiprompt_1164,Portrait of a gecko wearing a train conductor’s hat and holding a flag that has a yin-yang symbol on it. Comic.,"yin-yang symbol, flag, on",9,"4,5",relation,spatial,"relation - spatial (yin-yang symbol, flag, on)",Is the yin-yang symbol on the flag?
+partiprompt_1175,A photo of an Athenian vase with a painting of pangolins playing soccer in the style of Egyptian hieroglyphics,photo,1,0,global, ,global -  (photo),Is this a photo?
+partiprompt_1175,A photo of an Athenian vase with a painting of pangolins playing soccer in the style of Egyptian hieroglyphics,vase,2,0,entity,whole,entity - whole (vase),Is there a vase?
+partiprompt_1175,A photo of an Athenian vase with a painting of pangolins playing soccer in the style of Egyptian hieroglyphics,painting,3,0,entity,whole,entity - whole (painting),Is there a painting?
+partiprompt_1175,A photo of an Athenian vase with a painting of pangolins playing soccer in the style of Egyptian hieroglyphics,pangolins,4,0,entity,whole,entity - whole (pangolins),Are there pangolins?
+partiprompt_1175,A photo of an Athenian vase with a painting of pangolins playing soccer in the style of Egyptian hieroglyphics,"vase, Athenian",5,2,attribute,type,"attribute - type (vase, Athenian)",Is the vase Athenian?
+partiprompt_1175,A photo of an Athenian vase with a painting of pangolins playing soccer in the style of Egyptian hieroglyphics,"pangolins, painting, in",6,"3,4",relation,spatial,"relation - spatial (pangolins, painting, in)",Is the painting of pangolins?
+partiprompt_1175,A photo of an Athenian vase with a painting of pangolins playing soccer in the style of Egyptian hieroglyphics,"painting, Egyptian hieroglypics",7,3,attribute,type,"attribute - type (painting, Egyptian hieroglypics)",Does the photo use Egyptian hieroglyphs?
+partiprompt_1175,A photo of an Athenian vase with a painting of pangolins playing soccer in the style of Egyptian hieroglyphics,"painting, vase, on",8,"2,3",relation,spatial,"relation - spatial (painting, vase, on)",Is the painting on the vase?
+partiprompt_1175,A photo of an Athenian vase with a painting of pangolins playing soccer in the style of Egyptian hieroglyphics,"pangolins, soccer, play",9,"3,4",action, ,"action -  (pangolins, soccer, play)",Are the pangolins playing soccer?
+partiprompt_1179,A photo of an Athenian vase with a painting of toucans playing tennis in the style of Egyptian hieroglyphics,photo,1,0,global, ,global -  (photo),Is this a photo?
+partiprompt_1179,A photo of an Athenian vase with a painting of toucans playing tennis in the style of Egyptian hieroglyphics,vase,2,0,entity,whole,entity - whole (vase),Is there a vase?
+partiprompt_1179,A photo of an Athenian vase with a painting of toucans playing tennis in the style of Egyptian hieroglyphics,painting,3,0,entity,whole,entity - whole (painting),Are there toucans?
+partiprompt_1179,A photo of an Athenian vase with a painting of toucans playing tennis in the style of Egyptian hieroglyphics,toucans,4,0,entity,whole,entity - whole (toucans),Is there tennis?
+partiprompt_1179,A photo of an Athenian vase with a painting of toucans playing tennis in the style of Egyptian hieroglyphics,"vase, Athenian",5,2,attribute, ,"attribute -  (vase, Athenian)",Is the photo in the style of Egyptian hieroglyphs?
+partiprompt_1179,A photo of an Athenian vase with a painting of toucans playing tennis in the style of Egyptian hieroglyphics,"toucans, painting, in",6,"3,4",relation,spatial,"relation - spatial (toucans, painting, in)",Are there toucan in the painting?
+partiprompt_1179,A photo of an Athenian vase with a painting of toucans playing tennis in the style of Egyptian hieroglyphics,"painting, Egyptian hieroglypics",7,3,attribute,type,"attribute - type (painting, Egyptian hieroglypics)",Are the pangolins playing tennis?
+partiprompt_1179,A photo of an Athenian vase with a painting of toucans playing tennis in the style of Egyptian hieroglyphics,"painting, vase, on",8,"2,3",relation,spatial,"relation - spatial (painting, vase, on)",Is the painting on the vase?
+partiprompt_1179,A photo of an Athenian vase with a painting of toucans playing tennis in the style of Egyptian hieroglyphics,"toucans, tennis, play",9,"3,4",action, ,"action -  (toucans, tennis, play)",Are the toucans playing tennis?
+partiprompt_1192,a stained glass window depicting a calm tyrannosaurus rex,window,1,0,entity,whole,entity - whole (window),Is there a window?
+partiprompt_1192,a stained glass window depicting a calm tyrannosaurus rex,tyrannosaurus rex,2,0,entity,whole,entity - whole (tyrannosaurus rex),Is there a tyrannosaurus rex?
+partiprompt_1192,a stained glass window depicting a calm tyrannosaurus rex,"window, stained glass",3,1,attribute,material,"attribute - material (window, stained glass)",Is the window made of stained glass?
+partiprompt_1192,a stained glass window depicting a calm tyrannosaurus rex,"tyrannosaurus rex, calm",4,2,attribute,state,"attribute - state (tyrannosaurus rex, calm)",Does the tyrannosaurus look calm?
+partiprompt_1192,a stained glass window depicting a calm tyrannosaurus rex,"tyrannosaurus rex, window, in",5,"1,2",relation,spatial,"relation - spatial (tyrannosaurus rex, window, in)",Is there a tyrannosaurus rex depicted on the window?
+partiprompt_1250,a map of Italy,map,1,0,entity,whole,entity - whole (map),Is there a map?
+partiprompt_1250,a map of Italy,Italy,2,0,entity,whole,entity - whole (Italy),Is there Italy?
+partiprompt_1250,a map of Italy,"Italy, map, in",3,"1,2",relation,spatial,"relation - spatial (Italy, map, in)",Does the map show Italy?
+partiprompt_1261,"an abstract painting of three squares in blue, yellow and red",painting,1,0,global, ,global -  (painting),Is this a painting?
+partiprompt_1261,"an abstract painting of three squares in blue, yellow and red",squares,2,0,entity,whole,entity - whole (squares),Are there any squares?
+partiprompt_1261,"an abstract painting of three squares in blue, yellow and red","squares, ==3",3,2,other,count,"other - count (squares, ==3)",Are there three squares?
+partiprompt_1261,"an abstract painting of three squares in blue, yellow and red",abstract,4,1,global, ,global -  (abstract),Is the painting abstract?
+partiprompt_1261,"an abstract painting of three squares in blue, yellow and red","square_1, blue",5,"2,3",attribute,color,"attribute - color (square_1, blue)",Is one square blue?
+partiprompt_1261,"an abstract painting of three squares in blue, yellow and red","square_2, yellow",6,"2,3",attribute,color,"attribute - color (square_2, yellow)",Is one square yellow?
+partiprompt_1261,"an abstract painting of three squares in blue, yellow and red","square_3, red",7,"2,3",attribute,color,"attribute - color (square_3, red)",Is one square red?
+partiprompt_1285,a sketch of a horse,sketch,1,0,global, ,global -  (sketch),Is this a sketch?
+partiprompt_1285,a sketch of a horse,horse,2,0,entity,whole,entity - whole (horse),Is there a horse?
+partiprompt_1412,the word 'START' on a blue t-shirt,word,1,0,entity,whole,entity - whole (word),Is there a word?
+partiprompt_1412,the word 'START' on a blue t-shirt,t-shirt,2,0,entity,whole,entity - whole (t-shirt),Do you have a tshirt?
+partiprompt_1412,the word 'START' on a blue t-shirt,"word, ""START""",3,1,other,text rendering,"other - text rendering (word, ""START"")","Does the word say ""START""?"
+partiprompt_1412,the word 'START' on a blue t-shirt,"t-shirt, blue",4,2,attribute,color,"attribute - color (t-shirt, blue)",Is this t-shirt blue?
+partiprompt_1412,the word 'START' on a blue t-shirt,"word, t-shirt, on",5,"1,2",relation,spatial,"relation - spatial (word, t-shirt, on)",Is the word on the shirt?
+partiprompt_1414,the word 'START' written in chalk on a sidewalk,word,1,0,entity,whole,entity - whole (word),Is there a word?
+partiprompt_1414,the word 'START' written in chalk on a sidewalk,sidewalk,2,0,entity,whole,entity - whole (sidewalk),Is there a sidewalk?
+partiprompt_1414,the word 'START' written in chalk on a sidewalk,"word, ""START""",3,1,other,text rendering,"other - text rendering (word, ""START"")","Does the word say ""START""?"
+partiprompt_1414,the word 'START' written in chalk on a sidewalk,"word, chalk",4,1,attribute,texture,"attribute - texture (word, chalk)",Is the word written in chalk?
+partiprompt_1414,the word 'START' written in chalk on a sidewalk,"word, sidewalk, on",5,"1,2",relation,spatial,"relation - spatial (word, sidewalk, on)",Is the word on the sidewalk?
+paintskill_13,a photo of suitcase and bench; bench is left to suitcase,photo,1,0,global, ,global -  (photo),Is this a photo?
+paintskill_13,a photo of suitcase and bench; bench is left to suitcase,suitcase,2,0,entity,whole,entity - whole (suitcase),Is there a suitcase?
+paintskill_13,a photo of suitcase and bench; bench is left to suitcase,bench,3,0,entity,whole,entity - whole (bench),Is there a bench?
+paintskill_13,a photo of suitcase and bench; bench is left to suitcase,"bench, suitcase, to the left",4,"2,3",relation,spatial,"relation - spatial (bench, suitcase, to the left)",Is the bench to the left of the suitcase?
+paintskill_31,a photo of blue fire hydrant,photo,1,0,global, ,global -  (photo),Is this a photo?
+paintskill_31,a photo of blue fire hydrant,fire hydrant,2,0,entity,whole,entity - whole (fire hydrant),Is there a fire hydrant?
+paintskill_31,a photo of blue fire hydrant,"fire hydrant, blue",3,2,attribute,color,"attribute - color (fire hydrant, blue)",Is the fire hydrant blue?
+paintskill_110,a photo of bed and human; human is right to bed,photo,1,0,global, ,global -  (photo),Is this a photo?
+paintskill_110,a photo of bed and human; human is right to bed,bed,2,0,entity,whole,entity - whole (bed),Is there a bed?
+paintskill_110,a photo of bed and human; human is right to bed,human,3,0,entity,whole,entity - whole (human),Is there a human?
+paintskill_110,a photo of bed and human; human is right to bed,"human, bed, to the right",4,"2,3",relation,spatial,"relation - spatial (human, bed, to the right)",Is the human to the right of the bed?
+paintskill_119,a photo of bike and stop sign; stop sign is below bike,photo,1,0,global, ,global -  (photo),Is this a photo?
+paintskill_119,a photo of bike and stop sign; stop sign is below bike,bike,2,0,entity,whole,entity - whole (bike),Is there a bike?
+paintskill_119,a photo of bike and stop sign; stop sign is below bike,stop sign,3,0,entity,whole,entity - whole (stop sign),Is there a stop sign?
+paintskill_119,a photo of bike and stop sign; stop sign is below bike,"stop sign, bike, below",4,"2,3",relation,spatial,"relation - spatial (stop sign, bike, below)",Is the stop sign below the bike?
+paintskill_152,a photo of blue bear,photo,1,0,global, ,global -  (photo),Is this a photo?
+paintskill_152,a photo of blue bear,bear,2,0,entity,whole,entity - whole (bear),Is there a bear?
+paintskill_152,a photo of blue bear,"bear, blue",3,2,attribute,color,"attribute - color (bear, blue)",Is the bear blue?
+paintskill_156,a photo of bed and stop sign; stop sign is above bed,photo,1,0,global, ,global -  (photo),Is this a photo?
+paintskill_156,a photo of bed and stop sign; stop sign is above bed,bed,2,0,entity,whole,entity - whole (bed),Is there a bed?
+paintskill_156,a photo of bed and stop sign; stop sign is above bed,stop sign,3,0,entity,whole,entity - whole (stop sign),Is there a stop sign?
+paintskill_156,a photo of bed and stop sign; stop sign is above bed,"stop sign, bed, above",4,"2,3",relation,spatial,"relation - spatial (stop sign, bed, above)",Is the stop sign above the bed?
+paintskill_229,a photo of bear and bus; bus is above bear,photo,1,0,global, ,global -  (photo),Is this a photo?
+paintskill_229,a photo of bear and bus; bus is above bear,bear,2,0,entity,whole,entity - whole (bear),Is there a bear?
+paintskill_229,a photo of bear and bus; bus is above bear,bus,3,0,entity,whole,entity - whole (bus),Is there a bus?
+paintskill_229,a photo of bear and bus; bus is above bear,"bus, bear, above",4,"2,3",relation,spatial,"relation - spatial (bus, bear, above)",Is the bus above the bear?
+paintskill_235,a photo of dining table and traffic light; traffic light is below dining table,photo,1,0,global, ,global -  (photo),Is this a photo?
+paintskill_235,a photo of dining table and traffic light; traffic light is below dining table,dining table,2,0,entity,whole,entity - whole (dining table),Is there a dining table?
+paintskill_235,a photo of dining table and traffic light; traffic light is below dining table,traffic light,3,0,entity,whole,entity - whole (traffic light),Is there a traffic light?
+paintskill_235,a photo of dining table and traffic light; traffic light is below dining table,"traffic light, dining table, below",4,"2,3",relation,spatial,"relation - spatial (traffic light, dining table, below)",Is the traffice light below the dining table?
+paintskill_241,a photo of backpack and airplane; airplane is left to backpack,photo,1,0,global, ,global -  (photo),Is this a photo?
+paintskill_241,a photo of backpack and airplane; airplane is left to backpack,backpack,2,0,entity,whole,entity - whole (backpack),Is there a backpack?
+paintskill_241,a photo of backpack and airplane; airplane is left to backpack,airplane,3,0,entity,whole,entity - whole (airplane),Is there an airplane?
+paintskill_241,a photo of backpack and airplane; airplane is left to backpack,"airplane, backpack, to the left",4,"2,3",relation,spatial,"relation - spatial (airplane, backpack, to the left)",Is the airplane to the left of the backpack?
+paintskill_254,a photo of dog and stop sign; stop sign is left to dog,photo,1,0,global, ,global -  (photo),Is this a photo?
+paintskill_254,a photo of dog and stop sign; stop sign is left to dog,dog,2,0,entity,whole,entity - whole (dog),Is there a dog?
+paintskill_254,a photo of dog and stop sign; stop sign is left to dog,stop sign,3,0,entity,whole,entity - whole (stop sign),Is there a stop sign?
+paintskill_254,a photo of dog and stop sign; stop sign is left to dog,"stop sign, dog, to the left",4,"2,3",relation,spatial,"relation - spatial (stop sign, dog, to the left)",Is the dog to the right of the stop sign?
+paintskill_270,a photo of bird and skateboard; skateboard is right to bird,photo,1,0,global, ,global -  (photo),Is this a photo?
+paintskill_270,a photo of bird and skateboard; skateboard is right to bird,bird,2,0,entity,whole,entity - whole (bird),Is there a bird?
+paintskill_270,a photo of bird and skateboard; skateboard is right to bird,skateboard,3,0,entity,whole,entity - whole (skateboard),Is there a skateboard?
+paintskill_270,a photo of bird and skateboard; skateboard is right to bird,"skateboard, bird, to the right of",4,"2,3",relation,spatial,"relation - spatial (skateboard, bird, to the right of)",Is the skateboard to the right of the bird?
+paintskill_275,a photo of bike and skateboard; skateboard is left to bike,photo,1,0,global, ,global -  (photo),Is this a photo?
+paintskill_275,a photo of bike and skateboard; skateboard is left to bike,bike,2,0,entity,whole,entity - whole (bike),Is there a bike?
+paintskill_275,a photo of bike and skateboard; skateboard is left to bike,skateboard,3,0,entity,whole,entity - whole (skateboard),Is there a skateboard?
+paintskill_275,a photo of bike and skateboard; skateboard is left to bike,"skateboard, bike, to the left of",4,"2,3",relation,spatial,"relation - spatial (skateboard, bike, to the left of)",Is the skateboard to the left of the bike?
+paintskill_286,a photo of bed and bench; bench is below bed,photo,1,0,global, ,global -  (photo),Is this a photo?
+paintskill_286,a photo of bed and bench; bench is below bed,bed,2,0,entity,whole,entity - whole (bed),Is there a bed?
+paintskill_286,a photo of bed and bench; bench is below bed,bench,3,0,entity,whole,entity - whole (bench),Is there a bench?
+paintskill_286,a photo of bed and bench; bench is below bed,"bench, bed, below",4,"2,3",relation,spatial,"relation - spatial (bench, bed, below)",Is the bench below the bed?
+paintskill_374,a photo of bear and dining table; dining table is below bear,photo,1,0,global, ,global -  (photo),Is this a photo?
+paintskill_374,a photo of bear and dining table; dining table is below bear,bear,2,0,entity,whole,entity - whole (bear),Is there a bear?
+paintskill_374,a photo of bear and dining table; dining table is below bear,dining table,3,0,entity,whole,entity - whole (dining table),Is there a dining table?
+paintskill_374,a photo of bear and dining table; dining table is below bear,"dining table, bear, below",4,"2,3",relation,spatial,"relation - spatial (dining table, bear, below)",Is the dining table below the bear?
+paintskill_409,a photo of chair and dining table; dining table is left to chair,photo,1,0,global, ,global -  (photo),Is this a photo?
+paintskill_409,a photo of chair and dining table; dining table is left to chair,chair,2,0,entity,whole,entity - whole (chair),Is there a chair?
+paintskill_409,a photo of chair and dining table; dining table is left to chair,dining table,3,0,entity,whole,entity - whole (dining table),Is there a dining table?
+paintskill_409,a photo of chair and dining table; dining table is left to chair,"dining table, chair, to the left",4,"2,3",relation,spatial,"relation - spatial (dining table, chair, to the left)",Is the dining table to the left of the chair?
