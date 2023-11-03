@@ -347,46 +347,46 @@ def generate_with_in_context_examples(
 
 		total_kwargs.append({"prompt": prompt})
 
-		# 2) Run LM calls
-		if verbose:
-			print(f"Running LM calls with {num_workers} workers.")
-		if num_workers == 1:
-			total_output = []
-			for kwargs in tqdm.tqdm(total_kwargs):
-				prompt = kwargs["prompt"]
-				output = generate_fn(prompt)
-				total_output += [output]
+	# 2) Run LM calls
+	if verbose:
+		print(f"Running LM calls with {num_workers} workers.")
+	if num_workers == 1:
+		total_output = []
+		for kwargs in tqdm.tqdm(total_kwargs):
+			prompt = kwargs["prompt"]
+			output = generate_fn(prompt)
+			total_output += [output]
 
-		else:
-			from multiprocessing import Pool
-			with Pool(num_workers) as p:
-				total_inputs = [d['prompt'] for d in total_kwargs]
-				total_output = list(
-					tqdm.tqdm(p.imap(generate_fn, total_inputs), total=len(total_inputs)))
+	else:
+		from multiprocessing import Pool
+		with Pool(num_workers) as p:
+			total_inputs = [d['prompt'] for d in total_kwargs]
+			total_output = list(
+				tqdm.tqdm(p.imap(generate_fn, total_inputs), total=len(total_inputs)))
 
-		# 3) Postprocess LM outputs
-		id2outputs = {}
+	# 3) Postprocess LM outputs
+	id2outputs = {}
 
-		for i, id_ in enumerate(
-			tqdm.tqdm(
-					ids,
-					dynamic_ncols=True,
-					ncols=80,
-					disable=not verbose,
-					desc="Postprocessing LM outputs"
-				)
-			):
+	for i, id_ in enumerate(
+		tqdm.tqdm(
+				ids,
+				dynamic_ncols=True,
+				ncols=80,
+				disable=not verbose,
+				desc="Postprocessing LM outputs"
+			)
+		):
 
-			test_input = id2inputs[id_]["input"]
-			raw_prediction = total_output[i]
-			prediction = parse_fn(raw_prediction).strip()
+		test_input = id2inputs[id_]["input"]
+		raw_prediction = total_output[i]
+		prediction = parse_fn(raw_prediction).strip()
 
-			out_datum = {}
-			out_datum["id"] = id_
-			out_datum["input"] = test_input
-			out_datum["output"] = prediction
+		out_datum = {}
+		out_datum["id"] = id_
+		out_datum["input"] = test_input
+		out_datum["output"] = prediction
 
-			id2outputs[id_] = out_datum
+		id2outputs[id_] = out_datum
 
 	return id2outputs
 
