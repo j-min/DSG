@@ -1,6 +1,7 @@
 import pandas as pd
 import string
 from typing import Any, Callable, Dict, List, Optional
+from pathlib import Path
 
 import tqdm
 from pprint import pprint
@@ -47,6 +48,7 @@ output format: id | question
 
 
 def load_tifa160_data(path='tifa160-dev-anns.csv'):
+	path = Path(__file__).parent / path
 	data_df = pd.read_csv(path)
 	return data_df
 
@@ -466,7 +468,7 @@ def generate_dsg(id2prompts: Dict[str, Dict[str, str]],
 
 	if verbose:
 		print('Run inference')
-	# used as inputs to task 2 (dependency gen) & task 3 (question gen)
+	# used as inputs to task 2 (question gen) & task 3 (dependency gen)
 	id2tuple_outputs = generate_with_in_context_examples(
 		generate_fn=generate_fn,
 		id2inputs=id2inputs,

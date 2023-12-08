@@ -6,7 +6,7 @@
 
 This repository contains the code for **DSG**, a new framework for fine-grained text-to-image evaluation using Davidsonian semantics, as described in the paper:
 
-**[Davidsonian Scene Graph: Improving Reliability in Fine-grained Evaluation for Text-Image Generation](https://arxiv.org/abs/2310.18235)**
+**[Davidsonian Scene Graph: Improving Reliability in Fine-grained Evaluation for Text-to-Image Generation](https://arxiv.org/abs/2310.18235)**
 
 by  [Jaemin Cho](https://j-min.io),
 [Yushi Hu](https://yushi-hu.github.io/),
@@ -137,7 +137,7 @@ If you find our project useful in your research, please cite the following paper
 ```bibtex
 @article{Cho2023DSG,
   author    = {Jaemin Cho and Yushi Hu and Jason Baldridge and Roopal Garg and Peter Anderson and Ranjay Krishna and Mohit Bansal and Jordi Pont-Tuset and Su Wang},
-  title     = {Davidsonian Scene Graph: Improving Reliability in Fine-grained Evaluation for Text-Image Generation},
+  title     = {Davidsonian Scene Graph: Improving Reliability in Fine-grained Evaluation for Text-to-Image Generation},
   year      = {2023},
 }
 ```

@@ -1,16 +1,13 @@
 
 
-# import mediapy as media
 import os
 from pathlib import Path
 from PIL import Image
 
 
 def load_image(item_id, model_type, image_dir='../mspice/images/image_v1/'):
-    #   image_path = f'/home/wangsu/mspice/images/image_v1/{item_id}_{model_type}.jpg'
     image_path = Path(image_dir) / f'{item_id}_{model_type}.jpg'
     if os.path.exists(image_path):
-        # return Image.fromarray(media.read_image(image_path), 'RGB')
         return Image.open(image_path).convert('RGB')
     return False
 
