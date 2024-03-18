@@ -1,4 +1,4 @@
-data_type,model_type,item_id,source_id,worker_id,question,answer
+dsg_prompt_split,t2i_model,item_id,source_id,worker_id,question,answer
 tifa160,mini-dalle,tifa160_143,partiprompt_366,4375840905,How consistent is the image with the text description?,3
 tifa160,mini-dalle,tifa160_143,partiprompt_366,4375843592,How consistent is the image with the text description?,5
 tifa160,mini-dalle,tifa160_143,partiprompt_366,4379690288,How consistent is the image with the text description?,5
