@@ -121,7 +121,7 @@ parse_utils.py
 # Example LLM call - GPT-3.5 turbo 16k
 openai_utils.py
 
-# Example VQA call - mPLUG-large / InstructBLIP
+# Example VQA call - mPLUG-large / InstructBLIP / GPT4o
 vqa_utils.py
 
 # Example TIFA dev json
@@ -131,12 +131,10 @@ tifa160-dev-anns.json
 ## Setup
 
 ```bash
-conda create -n dsg python=3.9
+git clone https://github.com/j-min/DSG
+conda create -n dsg python
 conda activate dsg
-pip install -r requirements.txt
-
-# (optional) if you want to use GPT models via OpenAI API for DSG-generating LLM
-pip install openai
+pip install -e .
 
 # (optional) if you want to use mPLUG-large / InstructBLIP for VQA models
 pip install transformers==4.31.0 torch==2.0.1 "modelscope[multi-modal]" salesforce-lavis
@@ -145,7 +143,7 @@ pip install transformers==4.31.0 torch==2.0.1 "modelscope[multi-modal]" salesfor
 ## DSG-1k score calculation (e.g., with SDv2.1 images)
 
 ```bash
-python t2i_eval_dsg1k.py
+python scripts/t2i_eval_dsg1k.py
 ```
 
 The output should look like below
@@ -180,7 +178,7 @@ Avg. score: 80.5%
 ## Human correlation on TIFA-160
 
 ```bash
-python tifa160_correlation.py
+python scripts/tifa160_correlation.py
 ```
 
 The output should look like below

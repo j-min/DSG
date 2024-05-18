@@ -8,8 +8,8 @@ from collections import Counter
 from pprint import pprint
 
 
-from data_utils import *
-from vqa_utils import calc_vqa_score
+from dsg.data_utils import *
+from dsg.vqa_utils import calc_vqa_score
 
 
 print("Calculate Correlation")

@@ -48,7 +48,7 @@ output format: id | question
 
 
 def load_tifa160_data(path='tifa160-dev-anns.csv'):
-	path = Path(__file__).parent / path
+	path = Path(__file__).parent / 'data' / path
 	data_df = pd.read_csv(path)
 	return data_df
 

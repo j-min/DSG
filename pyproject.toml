@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = 'dsg'
+version = '0.1.0'
+description = 'Davidsonian Scene Graph: Improving Reliability in Fine-Grained Evaluation for Text-to-Image Generation'
+readme = "README.md"
+dependencies = [
+    "pillow", "pandas", "tqdm", "scipy", "openai>=1.0.0"
+]
+
+[tool.setuptools]
+packages = ["dsg"]
+include-package-data = true
+
+[tool.setuptools.package-data]
+mypackage = ["data/*.csv"]
+
+[project.urls]
+"Homepage" = "https://google.github.io/dsg/"
+"Bug Tracker" = "https://github.com/j-min/DSG/issues"
+
+# [tool.wheel]
+# exclude = [""]

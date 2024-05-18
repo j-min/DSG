@@ -9,8 +9,8 @@ from pprint import pprint
 from copy import deepcopy
 
 
-from data_utils import *
-from vqa_utils import calc_vqa_score
+from dsg.data_utils import *
+from dsg.vqa_utils import calc_vqa_score
 
 
 print("Evaluating T2I models on DSG1k")

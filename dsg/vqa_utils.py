@@ -118,3 +118,65 @@ class InstructBLIP:
             temperature=1,
         )
         return self.processor.batch_decode(outputs, skip_special_tokens=True)[0].strip()
+    
+####$ GPT-4o #####
+import openai
+import base64
+import io
+
+# Function to encode the image
+def encode_image(image_input):
+    # Check if the input is a string (assuming it is a path)
+    if isinstance(image_input, str):
+        with open(image_input, "rb") as image_file:
+            return base64.b64encode(image_file.read()).decode('utf-8')
+    # Check if the input is a PIL Image object
+    elif isinstance(image_input, Image.Image):
+        img_byte_arr = io.BytesIO()
+        image_input.save(img_byte_arr, format=image_input.format)
+        return base64.b64encode(img_byte_arr.getvalue()).decode('utf-8')
+    else:
+        raise ValueError("Invalid input: must be a file path or a PIL Image object.")
+
+class GPT4o:
+    def __init__(self, ckpt='gpt-4o'):
+        """
+        According to Usages from:
+        https://platform.openai.com/docs/models
+        https://platform.openai.com/docs/guides/vision
+        """
+
+        assert openai.api_key is not None, "OpenAI API key is not set"
+
+    def vqa(self, image, question):
+
+        base64_image = encode_image(image)
+
+        response = openai.chat.completions.create(
+            model="gpt-4o",
+            messages=[
+                {
+                "role": "user",
+                "content": [
+                    {"type": "text",
+                     "text": f"Answer only with 'yes' or 'no'. Do not give other outputs or punctuation marks. Question: {question}"},
+                    {
+                    "type": "image_url",
+                    "image_url": {
+                        "url": f"data:image/jpeg;base64,{base64_image}"
+                    },
+                    },
+                ],
+                }
+            ],
+            max_tokens=20,
+            )
+        
+        answer = response.choices[0].message.content
+        
+        answer = answer.lower().strip()
+
+        # remove punctuation marks
+        answer = answer.replace(".", "").replace(",", "").replace("?", "").replace("!", "")
+
+        return answer

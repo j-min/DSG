@@ -8,7 +8,7 @@ import numpy as np
 # Load TIFA160 Likert Scores
 ###############################
 
-human_tifa160_likert_df = pd.read_csv('./tifa160-likert-anns.csv')
+human_tifa160_likert_df = pd.read_csv(Path(__file__).parent / 'data/tifa160-likert-anns.csv')
 def load_human_likert_ann(t2i_model, item_id):
     """Load the Likert scores of human annotations on DSG-1k prompts"""
 
@@ -41,7 +41,7 @@ for i, row in human_tifa160_likert_df.iterrows():
 # Load DSG annotations
 ###############################
 
-dsg_df = pd.read_csv('./dsg-1k-anns.csv')
+dsg_df = pd.read_csv(Path(__file__).parent / 'data/dsg-1k-anns.csv')
 
 dsg_itemid2data = {}
 for idx, row in dsg_df.iterrows():
