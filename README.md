@@ -112,20 +112,21 @@ def evaluate_image_dsg(text, generated_image, VQA, LLM):
 ## Code Structure
 
 ```bash
-# Generate DSG with arbitrary LLM
-query_utils.py
+dsg/
+  # Generate DSG with arbitrary LLM
+  query_utils.py
 
-# Parse generation results from LLM
-parse_utils.py
+  # Parse generation results from LLM
+  parse_utils.py
 
-# Example LLM call - GPT-3.5 turbo 16k
-openai_utils.py
+  # Read and process DSG data files for score calculation
+  data_utils.py
 
-# Example VQA call - mPLUG-large / InstructBLIP / GPT4o
-vqa_utils.py
+  # Example LLM call - GPT-3.5 turbo 16k
+  openai_utils.py
 
-# Example TIFA dev json
-tifa160-dev-anns.json
+  # Example VQA call - mPLUG-large / InstructBLIP / GPT4o
+  vqa_utils.py
 ```
 
 ## Setup
